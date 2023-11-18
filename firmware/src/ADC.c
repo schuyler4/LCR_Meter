@@ -1,3 +1,12 @@
+//
+// FILENAME: ADC.c
+//
+// description: This file contains functions for some of the lower level operations needed
+// to setup and use the ADC on the atmega328.
+//
+// Written by: Marek Newton
+//
+
 // Configure the ADC registers to setup an interupt ADC sample.
 void setup_ADC(void)
 {
@@ -5,7 +14,7 @@ void setup_ADC(void)
     ADMUX &= ~(1 << REFS0);
     ADMUX &= ~(1 << REFS1);
 
-    // The 0th ADC channel is used initially, so the channel does not need 
+    // The 0th ADC channel is used, so the channel does not need 
     // to be configured.
 
     // enable the ADC
@@ -20,3 +29,4 @@ void start_ADC_conversion(void)
 {
     ADCSRA |= (1 << ADSC); 
 }
+

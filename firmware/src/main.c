@@ -4,6 +4,7 @@
 #include "ADC.h"
 #include "UART.h"
 #include "running_average.h"
+#include "calcs.h"
 
 static volatile unsigned int adc_value;
 static volatile unsigned uint8_t adc_complete_flag = 0;
@@ -35,7 +36,11 @@ int main(void)
 void adc_complete(int value)
 {
     adc_complete_flag = 0;
+    component_voltage_filter.sample = value;
     uint16_t component_voltage_filter_average_value = running_average_filter_sample(&component_voltage_filter);
+    float measured_capacitance = get_capacitor_value_from_ADC(component_voltage_filter_average_value);
+    uint16_t measured_capacitance_integer = ((uint16_t)(measured_capacitance*1000))
+    UART_transmit_uint16_t(measured_capacitance_integer);
 }
 
 ISR(ADC_vect)

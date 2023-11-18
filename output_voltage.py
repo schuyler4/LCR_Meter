@@ -1,18 +1,13 @@
-from math import pi
-from cmath import polar
+from math import pi, sqrt
 
 R = 1000 # Ohms
-C = 0.1e-6 # Farads
-freq = 1000 # Hertz
-voltage = 5 # V
+FREQ = 100 # Hertz
+VOLTAGE = 5 # V
 
-def get_output_voltage(R, C, freq, voltage):
-    capacitor_impedance = -1j/(2*pi*freq*C)
-    impedance = R+capacitor_impedance   
-    current = voltage/impedance
-    output_voltage, _  = polar(current*capacitor_impedance)
-    return output_voltage
+def get_capacitance(Vr):
+    w = 2*pi*FREQ
+    a = VOLTAGE**2/((VOLTAGE-Vr)**2*w**2*R**2)
+    return sqrt(a - (1/(w**2*R**2)))
 
-for i in range(0, int(1e12)):
-    capacitance = i*1e-12
 
+print(get_capacitance(2))
