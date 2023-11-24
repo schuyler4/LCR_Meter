@@ -330,6 +330,10 @@
     [
       "10c88774-f66e-42e0-a769-eecd0e195ed5",
       "Analog Front End"
+    ],
+    [
+      "93bc1a77-4ad8-4e49-95e4-dea8723e1896",
+      "Time Analog Front End"
     ]
   ],
   "text_variables": {}
