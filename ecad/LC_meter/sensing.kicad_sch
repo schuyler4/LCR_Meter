@@ -1,0 +1,14 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 3dcd2115-9e6f-4ec2-b5e2-842665ede664)
+
+  (paper "A4")
+
+  (title_block
+    (title "Component Sensing")
+  )
+
+  (lib_symbols
+  )
+
+)
