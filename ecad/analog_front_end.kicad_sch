@@ -2771,7 +2771,7 @@
     (property "Value" "ADS8328IPW" (at 209.55 69.85 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_SO:TSSOP-14-1EP_4.4x5mm_P0.65mm" (at 209.55 102.87 0)
+    (property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" (at 209.55 102.87 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "Datasheet" "" (at 209.55 102.87 0)
@@ -3040,6 +3040,34 @@
         )
         (path "/0c53b8cf-b94b-444b-8930-5f445eddf0f0/2f1a03b0-7946-4e7c-ad47-38a79c8ba450"
           (reference "R20") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GNDD") (at 175.26 102.87 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 8cc23353-afbf-4c59-b8e9-fdd06f1bbfff)
+    (property "Reference" "#PWR012" (at 175.26 109.22 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GNDD" (at 175.26 106.68 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 175.26 102.87 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 175.26 102.87 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 9aa09cb6-46d0-439d-8a70-95c1d1a1a536))
+    (instances
+      (project "LC_meter"
+        (path "/0c53b8cf-b94b-444b-8930-5f445eddf0f0"
+          (reference "#PWR012") (unit 1)
+        )
+        (path "/0c53b8cf-b94b-444b-8930-5f445eddf0f0/2f1a03b0-7946-4e7c-ad47-38a79c8ba450"
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -3460,31 +3488,6 @@
       (project "LC_meter"
         (path "/0c53b8cf-b94b-444b-8930-5f445eddf0f0/2f1a03b0-7946-4e7c-ad47-38a79c8ba450"
           (reference "U1") (unit 4)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GNDA") (at 175.26 102.87 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid cfb760bc-adde-408d-a61f-9975e4d498fb)
-    (property "Reference" "#PWR024" (at 175.26 109.22 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GNDA" (at 175.26 107.95 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 175.26 102.87 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 175.26 102.87 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid f18c60d7-def9-4507-9227-e0c4078ab6e4))
-    (instances
-      (project "LC_meter"
-        (path "/0c53b8cf-b94b-444b-8930-5f445eddf0f0/2f1a03b0-7946-4e7c-ad47-38a79c8ba450"
-          (reference "#PWR024") (unit 1)
         )
       )
     )

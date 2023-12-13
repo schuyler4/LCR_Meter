@@ -2325,31 +2325,6 @@
     )
   )
 
-  (symbol (lib_id "power:+5V") (at 184.15 118.11 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 21c09e9d-736c-4e9b-b121-59a0eab65e27)
-    (property "Reference" "#PWR034" (at 184.15 121.92 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+5V" (at 184.15 113.03 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 184.15 118.11 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 184.15 118.11 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 30138c85-22f7-4b7d-9999-f374f1c7fecd))
-    (instances
-      (project "LC_meter"
-        (path "/0c53b8cf-b94b-444b-8930-5f445eddf0f0"
-          (reference "#PWR034") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:C") (at 93.98 144.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 231c30af-ca6f-4125-b436-4b2fb6225adb)
@@ -2854,6 +2829,31 @@
       (project "LC_meter"
         (path "/0c53b8cf-b94b-444b-8930-5f445eddf0f0"
           (reference "F1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+3.3V") (at 184.15 118.11 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 7bc364a9-22a3-4bd2-8c6b-fca75e73be21)
+    (property "Reference" "#PWR034" (at 184.15 121.92 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 184.15 113.03 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 184.15 118.11 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 184.15 118.11 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 6b72a99f-7636-4b23-8522-bfc202a43c59))
+    (instances
+      (project "LC_meter"
+        (path "/0c53b8cf-b94b-444b-8930-5f445eddf0f0"
+          (reference "#PWR034") (unit 1)
         )
       )
     )
