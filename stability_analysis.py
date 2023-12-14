@@ -19,12 +19,12 @@ def rad_to_deg(rad): return rad*(180/pi)
 
 OPEN_LOOP_GAIN_V_PER_V = undo_dB(OPEN_LOOP_GAIN)
 
-def TF(s): return OPEN_LOOP_GAIN_V_PER_V/((1+(s/CUTOFF_FREQUENCY))*(1+s*CUTOFF_FREQUENCY*R_OUT*C_LOAD))
+def TF(s): return OPEN_LOOP_GAIN_V_PER_V/((1+(s/CUTOFF_FREQUENCY))*(1+s*R_OUT*C_LOAD))
 def my_polar(c): return np.array([dB(polar(c)[0]), rad_to_deg(polar(c)[1])])
 def w_to_f(w): return w*2*np.pi
 
 def evaluate_TF(TF, min_freq, max_freq):
-    ff = np.linspace(min_freq, max_freq, num =int(max_freq - min_freq))
+    ff = np.linspace(min_freq, max_freq, num=1e6)
     transfer_function_mag_phase = np.vectorize(lambda f: np.concatenate((my_polar(TF(f*2*np.pi*1j)), np.array([w_to_f(f)]))), signature='()->(n)')
     return transfer_function_mag_phase(ff)
 
@@ -51,12 +51,7 @@ def plot_TF(response):
     ax2.legend(loc = 0)
     plt.show()
 
-tic = time.time()
-response = evaluate_TF(TF, 100e3, 10e6 )
-toc = time.time()
-print(toc-tic)
-
-find_phase_margin(response)
+#response =  evaluate_TF(TF, 10, 10e6)
 
 
 
