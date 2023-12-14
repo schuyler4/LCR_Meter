@@ -31,3 +31,5 @@ __pycache__/
 
 # Netlist
 *.net
+
+#auto_saved_files#
