@@ -2145,12 +2145,12 @@
   )
 
   (symbol (lib_id "Device:C") (at 111.76 152.4 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 20d46d62-3f65-4ebc-a013-5f5cb0b666f0)
     (property "Reference" "C6" (at 109.22 151.13 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "PNU" (at 114.3 151.13 90)
+    (property "Value" "PNU" (at 115.57 151.13 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 115.57 151.4348 0)
@@ -2424,7 +2424,7 @@
   (symbol (lib_id "Connector:TestPoint_Alt") (at 158.75 119.38 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3f7beb2a-370c-45c3-953c-a651da346920)
-    (property "Reference" "TP1" (at 155.448 114.3 90)
+    (property "Reference" "TP?" (at 155.448 114.3 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4952" (at 155.448 116.84 90)
@@ -2440,7 +2440,7 @@
     (instances
       (project "LC_meter"
         (path "/0c53b8cf-b94b-444b-8930-5f445eddf0f0"
-          (reference "TP1") (unit 1)
+          (reference "TP?") (unit 1)
         )
         (path "/0c53b8cf-b94b-444b-8930-5f445eddf0f0/2f1a03b0-7946-4e7c-ad47-38a79c8ba450"
           (reference "TP7") (unit 1)
@@ -2910,7 +2910,7 @@
   (symbol (lib_id "Connector:TestPoint_Alt") (at 118.11 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6dd6067b-b704-4d5e-987a-4c8c7cf85c77)
-    (property "Reference" "TP1" (at 120.65 114.808 0)
+    (property "Reference" "TP?" (at 120.65 114.808 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4952" (at 120.65 117.348 0)
@@ -2926,7 +2926,7 @@
     (instances
       (project "LC_meter"
         (path "/0c53b8cf-b94b-444b-8930-5f445eddf0f0"
-          (reference "TP1") (unit 1)
+          (reference "TP?") (unit 1)
         )
         (path "/0c53b8cf-b94b-444b-8930-5f445eddf0f0/2f1a03b0-7946-4e7c-ad47-38a79c8ba450"
           (reference "TP6") (unit 1)
@@ -2991,7 +2991,7 @@
   (symbol (lib_id "Connector:TestPoint_Alt") (at 97.79 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 76cc5d59-6978-4c8d-86f9-bf2777f24485)
-    (property "Reference" "TP1" (at 100.33 32.258 0)
+    (property "Reference" "TP?" (at 100.33 32.258 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4952" (at 100.33 34.798 0)
@@ -3007,7 +3007,7 @@
     (instances
       (project "LC_meter"
         (path "/0c53b8cf-b94b-444b-8930-5f445eddf0f0"
-          (reference "TP1") (unit 1)
+          (reference "TP?") (unit 1)
         )
         (path "/0c53b8cf-b94b-444b-8930-5f445eddf0f0/2f1a03b0-7946-4e7c-ad47-38a79c8ba450"
           (reference "TP4") (unit 1)
@@ -3017,7 +3017,7 @@
   )
 
   (symbol (lib_id "Device:R_US") (at 111.76 187.96 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 84e2891f-d9a7-4b78-9fd6-9f444d657a8d)
     (property "Reference" "R?" (at 109.22 189.23 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3048,7 +3048,7 @@
   (symbol (lib_id "power:GNDD") (at 175.26 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8cc23353-afbf-4c59-b8e9-fdd06f1bbfff)
-    (property "Reference" "#PWR012" (at 175.26 109.22 0)
+    (property "Reference" "#PWR?" (at 175.26 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDD" (at 175.26 106.68 0)
@@ -3064,7 +3064,7 @@
     (instances
       (project "LC_meter"
         (path "/0c53b8cf-b94b-444b-8930-5f445eddf0f0"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/0c53b8cf-b94b-444b-8930-5f445eddf0f0/2f1a03b0-7946-4e7c-ad47-38a79c8ba450"
           (reference "#PWR024") (unit 1)
@@ -3238,7 +3238,7 @@
   )
 
   (symbol (lib_id "Device:R_US") (at 111.76 177.8 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid a5a6df21-ec6d-4c1b-ac41-aa01aaabdee5)
     (property "Reference" "R?" (at 109.22 179.07 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3401,7 +3401,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 111.76 162.56 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid bfa2cff1-10d0-4ec0-a1de-494b32c46cc7)
     (property "Reference" "C7" (at 109.22 161.29 90)
       (effects (font (size 1.27 1.27)))
@@ -3618,7 +3618,7 @@
   (symbol (lib_id "Connector:TestPoint_Alt") (at 107.95 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e7e83ecc-1e63-4f06-8d77-145b7c451852)
-    (property "Reference" "TP1" (at 110.49 138.938 0)
+    (property "Reference" "TP?" (at 110.49 138.938 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4952" (at 110.49 141.478 0)
@@ -3634,7 +3634,7 @@
     (instances
       (project "LC_meter"
         (path "/0c53b8cf-b94b-444b-8930-5f445eddf0f0"
-          (reference "TP1") (unit 1)
+          (reference "TP?") (unit 1)
         )
         (path "/0c53b8cf-b94b-444b-8930-5f445eddf0f0/2f1a03b0-7946-4e7c-ad47-38a79c8ba450"
           (reference "TP5") (unit 1)
@@ -3699,7 +3699,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 111.76 182.88 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid ea9daee1-5e2b-4ff2-b19a-3f56acc2327e)
     (property "Reference" "C14" (at 107.95 181.61 90)
       (effects (font (size 1.27 1.27)))
@@ -3821,7 +3821,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 111.76 172.72 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid f621876c-a3ba-4b2e-89d9-1d2ce15c6abe)
     (property "Reference" "C13" (at 107.95 171.45 90)
       (effects (font (size 1.27 1.27)))

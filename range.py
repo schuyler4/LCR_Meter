@@ -17,6 +17,19 @@ CURRENT_GAIN = [2.5e3, 250]
 
 def in_range(voltage): return voltage < MAX_VOLTAGE and voltage > MIN_VOLTAGE
 
+# Resistance 
+for r in R:
+    Imax = (SINE_INPUT-MIN_VOLTAGE)/r
+    Imin = (SINE_INPUT-MAX_VOLTAGE)/r
+    Rmin = MIN_VOLTAGE/Imax
+    Rmax = MAX_VOLTAGE/Imin
+    outMax = [Imax*gain for gain in CURRENT_GAIN]
+    outMin = [Imin*gain for gain in CURRENT_GAIN]
+    print(outMax)
+    print(outMin)
+    print('Max Resistance: ', Rmax)
+    print('Min Resistance: ', Rmin)
+
 # Capacitance
 for i, r in enumerate(R):
     min_capacitance = sqrt(SINE_INPUT**2/(w**2*r**2*MAX_VOLTAGE**2) - 1/(w**2*r**2))
