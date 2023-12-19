@@ -3025,7 +3025,7 @@
     (property "Reference" "R22" (at 213.36 54.61 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "10k" (at 213.36 59.69 90)
+    (property "Value" "1k" (at 213.36 59.69 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 213.614 56.134 90)

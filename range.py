@@ -23,8 +23,8 @@ for r in R:
     Imin = (SINE_INPUT-MAX_VOLTAGE)/r
     Rmin = MIN_VOLTAGE/Imax
     Rmax = MAX_VOLTAGE/Imin
-    outMax = [Imax*gain for gain in CURRENT_GAIN]
-    outMin = [Imin*gain for gain in CURRENT_GAIN]
+    outMax = [in_range(Imax*gain) for gain in CURRENT_GAIN]
+    outMin = [in_range(Imin*gain) for gain in CURRENT_GAIN]
     print(outMax)
     print(outMin)
     print('Max Resistance: ', Rmax)

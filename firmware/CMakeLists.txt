@@ -1,0 +1,4 @@
+add_executable(firmware main.c)
+target_link_libraries(firmware pico_stdlib)
+pico_add_extra_outputs(firmware)
+example_auto_set_url(firmware)
