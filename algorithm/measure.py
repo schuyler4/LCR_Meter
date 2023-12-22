@@ -1,3 +1,14 @@
+'''
+FILENAME: measure.py
+
+description: This is a prototype of the algorithm that will run on the RPi Pico that finds the values
+of components connected to the LCR meter. Voltage and current waveforms are generated from an LTSpice
+simulation. Only a capacitor value is found. The algorithm seems to work fairly well when the waveforms
+are not resampled. However, resampling seems to distort the waveform which adds some error. Obviously, 
+this will not be a problem with the actual device. 
+
+Written by Marek Newton
+'''
 from math import sqrt, pi
 import matplotlib.pyplot as plt
 import numpy as np

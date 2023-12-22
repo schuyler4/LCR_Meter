@@ -1,0 +1,3068 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/schuyler/Documents/projects/LC_meter/ecad/LC_meter.kicad_sch</source>
+    <date>Thu 21 Dec 2023 10:45:51 PM MST</date>
+    <tool>Eeschema 7.0.9-7.0.9~ubuntu22.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>LCR Meter</title>
+        <company/>
+        <rev>1</rev>
+        <date>2023-12-20</date>
+        <source>LC_meter.kicad_sch</source>
+        <comment number="1" value="All resistors are 1% tolerance unless shown otherwire."/>
+        <comment number="2" value="Marek Newton"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Analog Front End/" tstamps="/2f1a03b0-7946-4e7c-ad47-38a79c8ba450/">
+      <title_block>
+        <title>LCR Meter Analog Front End</title>
+        <company/>
+        <rev>1</rev>
+        <date>2023-12-20</date>
+        <source>analog_front_end.kicad_sch</source>
+        <comment number="1" value="All resistors are 1% tolerance unless shown otherwire."/>
+        <comment number="2" value="Marek Newton"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C10">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Distributor">DIGIKEY</field>
+        <field name="Distributor Part #">1276-1096-1-ND</field>
+        <field name="Part #">CL21A106KOQNNNE</field>
+        <field name="Unit Price">0.1</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="DIGIKEY"/>
+      <property name="Distributor Part #" value="1276-1096-1-ND"/>
+      <property name="Part #" value="CL21A106KOQNNNE"/>
+      <property name="Price" value=""/>
+      <property name="Unit Price" value="0.1"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LC_meter.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e5794564-ad97-4d9e-be57-f3f25cfaeacb</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Distributor">DIGIKEY</field>
+        <field name="Distributor Part #">1276-1096-1-ND</field>
+        <field name="Part #">CL21A106KOQNNNE</field>
+        <field name="Unit Price">0.1</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="DIGIKEY"/>
+      <property name="Distributor Part #" value="1276-1096-1-ND"/>
+      <property name="Part #" value="CL21A106KOQNNNE"/>
+      <property name="Price" value=""/>
+      <property name="Unit Price" value="0.1"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LC_meter.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5e96ad46-f6f9-4786-9d1d-8c769c675b0d</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Distributor">DIGIKEY</field>
+        <field name="Distributor Part #">1276-1003-1-ND</field>
+        <field name="Part #">CL21B104KBCNNNC</field>
+        <field name="Unit Price">0.1</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="DIGIKEY"/>
+      <property name="Distributor Part #" value="1276-1003-1-ND"/>
+      <property name="Part #" value="CL21B104KBCNNNC"/>
+      <property name="Price" value=""/>
+      <property name="Unit Price" value="0.1"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LC_meter.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>231c30af-ca6f-4125-b436-4b2fb6225adb</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Distributor">DIGIKEY</field>
+        <field name="Distributor Part #">1276-1096-1-ND</field>
+        <field name="Part #">CL21A106KOQNNNE</field>
+        <field name="Unit Price">0.1</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="DIGIKEY"/>
+      <property name="Distributor Part #" value="1276-1096-1-ND"/>
+      <property name="Part #" value="CL21A106KOQNNNE"/>
+      <property name="Price" value=""/>
+      <property name="Unit Price" value="0.1"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LC_meter.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c4898e11-f22c-4b12-813a-ce27a9acf5eb</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>B140-13-F</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>http://www.vishay.com/docs/88525/1n5817.pdf</datasheet>
+      <fields>
+        <field name="Distributor">DIGIKEY</field>
+        <field name="Distributor Part #">B140-FDICT-ND</field>
+        <field name="Part #">B140-13-F</field>
+        <field name="Unit Price">0.39</field>
+      </fields>
+      <libsource lib="Diode" part="1N5817" description="20V 1A Schottky Barrier Rectifier Diode, DO-41"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="DIGIKEY"/>
+      <property name="Distributor Part #" value="B140-FDICT-ND"/>
+      <property name="Part #" value="B140-13-F"/>
+      <property name="Price" value=""/>
+      <property name="Unit Price" value="0.39"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LC_meter.kicad_sch"/>
+      <property name="ki_description" value="20V 1A Schottky Barrier Rectifier Diode, DO-41"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c19ed876-f505-4dd5-a87e-eb5a2bafbf01</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>SMF13A</value>
+      <footprint>Diode_SMD:D_SOD-123F</footprint>
+      <fields>
+        <field name="Distributor">DIGIKEY</field>
+        <field name="Distributor Part #">SMF13A-TPMSCT-ND</field>
+        <field name="Part #">SMF13A-TP</field>
+        <field name="Unit Price">0.38</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="DIGIKEY"/>
+      <property name="Distributor Part #" value="SMF13A-TPMSCT-ND"/>
+      <property name="Part #" value="SMF13A-TP"/>
+      <property name="Price" value=""/>
+      <property name="Unit Price" value="0.38"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LC_meter.kicad_sch"/>
+      <property name="ki_description" value="Zener diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cb955df1-3b8d-4c75-bab7-fa0b6bcb6d99</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>B140-13-F</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>http://www.vishay.com/docs/88525/1n5817.pdf</datasheet>
+      <fields>
+        <field name="Distributor">DIGIKEY</field>
+        <field name="Distributor Part #">B140-FDICT-ND</field>
+        <field name="Part #">B140-13-F</field>
+        <field name="Unit Price">0.39</field>
+      </fields>
+      <libsource lib="Diode" part="1N5817" description="20V 1A Schottky Barrier Rectifier Diode, DO-41"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="DIGIKEY"/>
+      <property name="Distributor Part #" value="B140-FDICT-ND"/>
+      <property name="Part #" value="B140-13-F"/>
+      <property name="Price" value=""/>
+      <property name="Unit Price" value="0.39"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LC_meter.kicad_sch"/>
+      <property name="ki_description" value="20V 1A Schottky Barrier Rectifier Diode, DO-41"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b3f98f06-ed10-46a8-99ab-2329a1a1ed17</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>LTST-C171TBKT</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <fields>
+        <field name="Distributor">DIGIKEY</field>
+        <field name="Distributor Part #">160-1645-1-ND</field>
+        <field name="Part #">LTST-C171TBKT</field>
+        <field name="Unit Price">0.32</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="DIGIKEY"/>
+      <property name="Distributor Part #" value="160-1645-1-ND"/>
+      <property name="Part #" value="LTST-C171TBKT"/>
+      <property name="Price" value=""/>
+      <property name="Unit Price" value="0.32"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LC_meter.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5a928662-4b28-46f2-9d5f-f75222516922</tstamps>
+    </comp>
+    <comp ref="F1">
+      <value>2A</value>
+      <footprint>Fuse:Fuse_0805_2012Metric</footprint>
+      <fields>
+        <field name="Distributor">DIGIKEY</field>
+        <field name="Distributor Part #">507-1894-1-ND</field>
+        <field name="Part #">0685T2000-01</field>
+        <field name="Unit Price">0.32</field>
+      </fields>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="DIGIKEY"/>
+      <property name="Distributor Part #" value="507-1894-1-ND"/>
+      <property name="Part #" value="0685T2000-01"/>
+      <property name="Price" value=""/>
+      <property name="Unit Price" value="0.32"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LC_meter.kicad_sch"/>
+      <property name="ki_description" value="Fuse"/>
+      <property name="ki_keywords" value="fuse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>78a4118b-1dc9-4f51-930d-e78712c2a24b</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>M3</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <fields>
+        <field name="Distributor">N/A</field>
+        <field name="Distributor Part #">N/A</field>
+        <field name="Part #">N/A</field>
+        <field name="Price">N/A</field>
+        <field name="Unit Price">N/A</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="N/A"/>
+      <property name="Distributor Part #" value="N/A"/>
+      <property name="Part #" value="N/A"/>
+      <property name="Price" value="N/A"/>
+      <property name="Unit Price" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LC_meter.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d1f687ee-099a-4d0f-9423-42112ccb034c</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>M3</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <fields>
+        <field name="Distributor">N/A</field>
+        <field name="Distributor Part #">N/A</field>
+        <field name="Part #">N/A</field>
+        <field name="Price">N/A</field>
+        <field name="Unit Price">N/A</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="N/A"/>
+      <property name="Distributor Part #" value="N/A"/>
+      <property name="Part #" value="N/A"/>
+      <property name="Price" value="N/A"/>
+      <property name="Unit Price" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LC_meter.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>540e32f5-82de-4b65-8733-c87a06d45c50</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>M3</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <fields>
+        <field name="Distributor">N/A</field>
+        <field name="Distributor Part #">N/A</field>
+        <field name="Part #">N/A</field>
+        <field name="Price">N/A</field>
+        <field name="Unit Price">N/A</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="N/A"/>
+      <property name="Distributor Part #" value="N/A"/>
+      <property name="Part #" value="N/A"/>
+      <property name="Price" value="N/A"/>
+      <property name="Unit Price" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LC_meter.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a8dbe4f1-130b-4b53-9000-1b0227a55ca5</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>M3</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad_Via</footprint>
+      <fields>
+        <field name="Distributor">N/A</field>
+        <field name="Distributor Part #">N/A</field>
+        <field name="Part #">N/A</field>
+        <field name="Price">N/A</field>
+        <field name="Unit Price">N/A</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="N/A"/>
+      <property name="Distributor Part #" value="N/A"/>
+      <property name="Part #" value="N/A"/>
+      <property name="Price" value="N/A"/>
+      <property name="Unit Price" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LC_meter.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>15024e5d-1c7e-46b5-8848-9f1b29b93bec</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>12V Power</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal</footprint>
+      <fields>
+        <field name="Distributor">DIGIKEY</field>
+        <field name="Distributor Part #">ED10561-ND</field>
+        <field name="Part #">OSTVN02A150</field>
+        <field name="Unit Price">1.08</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="DIGIKEY"/>
+      <property name="Distributor Part #" value="ED10561-ND"/>
+      <property name="Part #" value="OSTVN02A150"/>
+      <property name="Price" value=""/>
+      <property name="Unit Price" value="1.08"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LC_meter.kicad_sch"/>
+      <property name="ki_description" value="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dd49cf27-9426-44ac-9104-ef98b18ace8b</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>Mode Switch</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal</footprint>
+      <fields>
+        <field name="Distributor">DIGIKEY</field>
+        <field name="Distributor Part #">ED10561-ND</field>
+        <field name="Part #">OSTVN02A150</field>
+        <field name="Unit Price">1.08</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="DIGIKEY"/>
+      <property name="Distributor Part #" value="ED10561-ND"/>
+      <property name="Part #" value="OSTVN02A150"/>
+      <property name="Price" value=""/>
+      <property name="Unit Price" value="1.08"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LC_meter.kicad_sch"/>
+      <property name="ki_description" value="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>77008e93-6ab6-44a4-b173-c98689ae75c0</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>Thevenin Range Switch Indicator</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal</footprint>
+      <fields>
+        <field name="Distributor">DIGIKEY</field>
+        <field name="Distributor Part #">ED10563-ND</field>
+        <field name="Part #">OSTVN04A150</field>
+        <field name="Unit Price">1.64</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x04" description="Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="DIGIKEY"/>
+      <property name="Distributor Part #" value="ED10563-ND"/>
+      <property name="Part #" value="OSTVN04A150"/>
+      <property name="Price" value=""/>
+      <property name="Unit Price" value="1.64"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LC_meter.kicad_sch"/>
+      <property name="ki_description" value="Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9fc1fa97-0286-4682-ba9d-5ac4870f449e</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>Current Range Switch Indicator</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal</footprint>
+      <fields>
+        <field name="Distributor">DIGIKEY</field>
+        <field name="Distributor Part #">ED10563-ND</field>
+        <field name="Part #">OSTVN04A150</field>
+        <field name="Unit Price">1.64</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x04" description="Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="DIGIKEY"/>
+      <property name="Distributor Part #" value="ED10563-ND"/>
+      <property name="Part #" value="OSTVN04A150"/>
+      <property name="Price" value=""/>
+      <property name="Unit Price" value="1.64"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LC_meter.kicad_sch"/>
+      <property name="ki_description" value="Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f0f3f5ed-7abb-4aaa-b455-ee5fdfde6bac</tstamps>
+    </comp>
+    <comp ref="J10">
+      <value>Range Switch</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal</footprint>
+      <fields>
+        <field name="Distributor">DIGIKEY</field>
+        <field name="Distributor Part #">ED10561-ND</field>
+        <field name="Part #">OSTVN02A150</field>
+        <field name="Unit Price">1.08</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="DIGIKEY"/>
+      <property name="Distributor Part #" value="ED10561-ND"/>
+      <property name="Part #" value="OSTVN02A150"/>
+      <property name="Price" value=""/>
+      <property name="Unit Price" value="1.08"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LC_meter.kicad_sch"/>
+      <property name="ki_description" value="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1ea5917d-244e-4fff-845a-be1f58c6dc0c</tstamps>
+    </comp>
+    <comp ref="J11">
+      <value>Range Switch</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal</footprint>
+      <fields>
+        <field name="Distributor">DIGIKEY</field>
+        <field name="Distributor Part #">ED10561-ND</field>
+        <field name="Part #">OSTVN02A150</field>
+        <field name="Unit Price">1.08</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="DIGIKEY"/>
+      <property name="Distributor Part #" value="ED10561-ND"/>
+      <property name="Part #" value="OSTVN02A150"/>
+      <property name="Price" value=""/>
+      <property name="Unit Price" value="1.08"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LC_meter.kicad_sch"/>
+      <property name="ki_description" value="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6a1d88ad-5984-44c7-8760-dddf5d2ee8e4</tstamps>
+    </comp>
+    <comp ref="J12">
+      <value>Display Connector</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal</footprint>
+      <fields>
+        <field name="Distributor">DIGIKEY</field>
+        <field name="Distributor Part #">ED10563-ND</field>
+        <field name="Part #">OSTVN04A150</field>
+        <field name="Unit Price">1.64</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x04" description="Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="DIGIKEY"/>
+      <property name="Distributor Part #" value="ED10563-ND"/>
+      <property name="Part #" value="OSTVN04A150"/>
+      <property name="Price" value=""/>
+      <property name="Unit Price" value="1.64"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LC_meter.kicad_sch"/>
+      <property name="ki_description" value="Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1b65d186-fb52-416f-9e45-460dfb628e08</tstamps>
+    </comp>
+    <comp ref="J13">
+      <value>Mode Switch</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal</footprint>
+      <fields>
+        <field name="Distributor">DIGIKEY</field>
+        <field name="Distributor Part #">ED10561-ND</field>
+        <field name="Part #">OSTVN02A150</field>
+        <field name="Unit Price">1.08</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="DIGIKEY"/>
+      <property name="Distributor Part #" value="ED10561-ND"/>
+      <property name="Part #" value="OSTVN02A150"/>
+      <property name="Price" value=""/>
+      <property name="Unit Price" value="1.08"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LC_meter.kicad_sch"/>
+      <property name="ki_description" value="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>77594715-27cd-4cf6-a6a3-0178d0872c98</tstamps>
+    </comp>
+    <comp ref="J14">
+      <value>Panel LED</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal</footprint>
+      <fields>
+        <field name="Distributor">DIGIKEY</field>
+        <field name="Distributor Part #">ED10561-ND</field>
+        <field name="Part #">OSTVN02A150</field>
+        <field name="Unit Price">1.08</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="DIGIKEY"/>
+      <property name="Distributor Part #" value="ED10561-ND"/>
+      <property name="Part #" value="OSTVN02A150"/>
+      <property name="Price" value=""/>
+      <property name="Unit Price" value="1.08"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LC_meter.kicad_sch"/>
+      <property name="ki_description" value="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>643fc85e-d47f-4db0-b487-1d85da6ec2c1</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</datasheet>
+      <fields>
+        <field name="Distributor">DIGIKEY</field>
+        <field name="Distributor Part #">2N7002NCT-ND</field>
+        <field name="Part #">2N7002</field>
+        <field name="Unit Price">0.45</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="DIGIKEY"/>
+      <property name="Distributor Part #" value="2N7002NCT-ND"/>
+      <property name="Part #" value="2N7002"/>
+      <property name="Price" value=""/>
+      <property name="Unit Price" value="0.45"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LC_meter.kicad_sch"/>
+      <property name="ki_description" value="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="ki_keywords" value="N-Channel Switching MOSFET"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eb8631c8-550d-4250-a468-5d96ca92c89d</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>68</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Distributor">DIGIKEY</field>
+        <field name="Distributor Part #">P68DACT-ND</field>
+        <field name="Part #">ERA-6AEB680V</field>
+        <field name="Unit Price">0.32</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="DIGIKEY"/>
+      <property name="Distributor Part #" value="P68DACT-ND"/>
+      <property name="Part #" value="ERA-6AEB680V"/>
+      <property name="Price" value=""/>
+      <property name="Unit Price" value="0.32"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LC_meter.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>598a5993-9b08-4c6c-950e-fce47d1b37f1</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Distributor">DIGIKEY</field>
+        <field name="Distributor Part #">RMCF0805FT1K00CT-ND</field>
+        <field name="Part #">RMCF0805FT1K00</field>
+        <field name="Unit Price">0.1</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="DIGIKEY"/>
+      <property name="Distributor Part #" value="RMCF0805FT1K00CT-ND"/>
+      <property name="Part #" value="RMCF0805FT1K00"/>
+      <property name="Price" value=""/>
+      <property name="Unit Price" value="0.1"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LC_meter.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>65fe42e9-6bd1-4468-82d5-f10a8ba3d551</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Distributor">DIGIKEY</field>
+        <field name="Distributor Part #">RMCF0805ZT0R00CT-ND</field>
+        <field name="Part #">RMCF0805ZT0R00</field>
+        <field name="Unit Price">0.1</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="DIGIKEY"/>
+      <property name="Distributor Part #" value="RMCF0805ZT0R00CT-ND"/>
+      <property name="Part #" value="RMCF0805ZT0R00"/>
+      <property name="Price" value=""/>
+      <property name="Unit Price" value="0.1"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LC_meter.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0c6a8191-bece-4a5a-a459-0b44a325a2d9</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Distributor">DIGIKEY</field>
+        <field name="Distributor Part #">RMCF0805FT10K0CT-ND</field>
+        <field name="Part #">RMCF0805FT10K0</field>
+        <field name="Unit Price">0.1</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="DIGIKEY"/>
+      <property name="Distributor Part #" value="RMCF0805FT10K0CT-ND"/>
+      <property name="Part #" value="RMCF0805FT10K0"/>
+      <property name="Price" value=""/>
+      <property name="Unit Price" value="0.1"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LC_meter.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>78ab8d7e-2f33-46d1-8d1a-dc9567d93be4</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Distributor">DIGIKEY</field>
+        <field name="Distributor Part #">RMCF0805FT10K0CT-ND</field>
+        <field name="Part #">RMCF0805FT10K0</field>
+        <field name="Unit Price">0.1</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="DIGIKEY"/>
+      <property name="Distributor Part #" value="RMCF0805FT10K0CT-ND"/>
+      <property name="Part #" value="RMCF0805FT10K0"/>
+      <property name="Price" value=""/>
+      <property name="Unit Price" value="0.1"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LC_meter.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>78072d21-145c-4b70-9c6e-06974dbe6fc0</tstamps>
+    </comp>
+    <comp ref="R28">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Distributor">DIGIKEY</field>
+        <field name="Distributor Part #">RMCF0805FT10K0CT-ND</field>
+        <field name="Part #">RMCF0805FT10K0</field>
+        <field name="Unit Price">0.1</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="DIGIKEY"/>
+      <property name="Distributor Part #" value="RMCF0805FT10K0CT-ND"/>
+      <property name="Part #" value="RMCF0805FT10K0"/>
+      <property name="Price" value=""/>
+      <property name="Unit Price" value="0.1"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LC_meter.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>77da46cf-bbe6-4e2c-b406-50a01fd746ce</tstamps>
+    </comp>
+    <comp ref="R29">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Distributor">DIGIKEY</field>
+        <field name="Distributor Part #">RMCF0805FT10K0CT-ND</field>
+        <field name="Part #">RMCF0805FT10K0</field>
+        <field name="Unit Price">0.1</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="DIGIKEY"/>
+      <property name="Distributor Part #" value="RMCF0805FT10K0CT-ND"/>
+      <property name="Part #" value="RMCF0805FT10K0"/>
+      <property name="Price" value=""/>
+      <property name="Unit Price" value="0.1"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LC_meter.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3db546d9-8816-49f1-b306-dbd51dcff256</tstamps>
+    </comp>
+    <comp ref="R38">
+      <value>1.78k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Distributor">DIGIKEY</field>
+        <field name="Distributor Part #">YAG4850CT-ND</field>
+        <field name="Part #">RT0805BRD071K78L</field>
+        <field name="Unit Price">0.36</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="DIGIKEY"/>
+      <property name="Distributor Part #" value="YAG4850CT-ND"/>
+      <property name="Part #" value="RT0805BRD071K78L"/>
+      <property name="Price" value=""/>
+      <property name="Unit Price" value="0.36"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LC_meter.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1d49016c-a5a8-436e-ad80-2804bd04c164</tstamps>
+    </comp>
+    <comp ref="TP1">
+      <value>4952</value>
+      <footprint>Connector_Pin:Pin_D1.2mm_L10.2mm_W2.9mm_FlatFork</footprint>
+      <fields>
+        <field name="Distributor">DIGIKEY</field>
+        <field name="Distributor Part #">36-4952-ND</field>
+        <field name="Part #">4952</field>
+        <field name="Unit Price">0.26</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint_Alt" description="test point (alternative shape)"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="DIGIKEY"/>
+      <property name="Distributor Part #" value="36-4952-ND"/>
+      <property name="Part #" value="4952"/>
+      <property name="Price" value=""/>
+      <property name="Unit Price" value="0.26"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LC_meter.kicad_sch"/>
+      <property name="ki_description" value="test point (alternative shape)"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6382a7ff-a057-40ee-94d2-b32db9b6e391</tstamps>
+    </comp>
+    <comp ref="TP2">
+      <value>4952</value>
+      <footprint>Connector_Pin:Pin_D1.2mm_L10.2mm_W2.9mm_FlatFork</footprint>
+      <fields>
+        <field name="Distributor">DIGIKEY</field>
+        <field name="Distributor Part #">36-4952-ND</field>
+        <field name="Part #">4952</field>
+        <field name="Unit Price">0.26</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint_Alt" description="test point (alternative shape)"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="DIGIKEY"/>
+      <property name="Distributor Part #" value="36-4952-ND"/>
+      <property name="Part #" value="4952"/>
+      <property name="Price" value=""/>
+      <property name="Unit Price" value="0.26"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LC_meter.kicad_sch"/>
+      <property name="ki_description" value="test point (alternative shape)"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ef0ccc71-24c3-4128-b65e-68e3d29284da</tstamps>
+    </comp>
+    <comp ref="TP3">
+      <value>4952</value>
+      <footprint>Connector_Pin:Pin_D1.2mm_L10.2mm_W2.9mm_FlatFork</footprint>
+      <fields>
+        <field name="Distributor">DIGIKEY</field>
+        <field name="Distributor Part #">36-4952-ND</field>
+        <field name="Part #">4952</field>
+        <field name="Unit Price">0.26</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint_Alt" description="test point (alternative shape)"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="DIGIKEY"/>
+      <property name="Distributor Part #" value="36-4952-ND"/>
+      <property name="Part #" value="4952"/>
+      <property name="Price" value=""/>
+      <property name="Unit Price" value="0.26"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LC_meter.kicad_sch"/>
+      <property name="ki_description" value="test point (alternative shape)"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b218b89c-c3c1-4ecc-96ed-9021bbad0d37</tstamps>
+    </comp>
+    <comp ref="TP8">
+      <value>4952</value>
+      <footprint>Connector_Pin:Pin_D1.2mm_L10.2mm_W2.9mm_FlatFork</footprint>
+      <fields>
+        <field name="Distributor">DIGIKEY</field>
+        <field name="Distributor Part #">36-4952-ND</field>
+        <field name="Part #">4952</field>
+        <field name="Unit Price">0.26</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint_Alt" description="test point (alternative shape)"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="DIGIKEY"/>
+      <property name="Distributor Part #" value="36-4952-ND"/>
+      <property name="Part #" value="4952"/>
+      <property name="Price" value=""/>
+      <property name="Unit Price" value="0.26"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LC_meter.kicad_sch"/>
+      <property name="ki_description" value="test point (alternative shape)"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1a78dec6-a532-46f8-8127-bbfea7c2c685</tstamps>
+    </comp>
+    <comp ref="TP9">
+      <value>4952</value>
+      <footprint>Connector_Pin:Pin_D1.2mm_L10.2mm_W2.9mm_FlatFork</footprint>
+      <fields>
+        <field name="Distributor">DIGIKEY</field>
+        <field name="Distributor Part #">36-4952-ND</field>
+        <field name="Part #">4952</field>
+        <field name="Unit Price">0.26</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint_Alt" description="test point (alternative shape)"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="DIGIKEY"/>
+      <property name="Distributor Part #" value="36-4952-ND"/>
+      <property name="Part #" value="4952"/>
+      <property name="Price" value=""/>
+      <property name="Unit Price" value="0.26"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LC_meter.kicad_sch"/>
+      <property name="ki_description" value="test point (alternative shape)"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>192e9048-d658-4559-9c60-16e909bf1c2a</tstamps>
+    </comp>
+    <comp ref="TP10">
+      <value>4952</value>
+      <footprint>Connector_Pin:Pin_D1.2mm_L10.2mm_W2.9mm_FlatFork</footprint>
+      <fields>
+        <field name="Distributor">DIGIKEY</field>
+        <field name="Distributor Part #">36-4952-ND</field>
+        <field name="Part #">4952</field>
+        <field name="Unit Price">0.26</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint_Alt" description="test point (alternative shape)"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="DIGIKEY"/>
+      <property name="Distributor Part #" value="36-4952-ND"/>
+      <property name="Part #" value="4952"/>
+      <property name="Price" value=""/>
+      <property name="Unit Price" value="0.26"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LC_meter.kicad_sch"/>
+      <property name="ki_description" value="test point (alternative shape)"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ddec05e3-d225-4bae-9460-d227d0dbc985</tstamps>
+    </comp>
+    <comp ref="TP11">
+      <value>4952</value>
+      <footprint>Connector_Pin:Pin_D1.2mm_L10.2mm_W2.9mm_FlatFork</footprint>
+      <fields>
+        <field name="Distributor">DIGIKEY</field>
+        <field name="Distributor Part #">36-4952-ND</field>
+        <field name="Part #">4952</field>
+        <field name="Unit Price">0.26</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint_Alt" description="test point (alternative shape)"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="DIGIKEY"/>
+      <property name="Distributor Part #" value="36-4952-ND"/>
+      <property name="Part #" value="4952"/>
+      <property name="Price" value=""/>
+      <property name="Unit Price" value="0.26"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LC_meter.kicad_sch"/>
+      <property name="ki_description" value="test point (alternative shape)"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>369f81ca-4172-445c-967a-39b1e63c0371</tstamps>
+    </comp>
+    <comp ref="TP12">
+      <value>4952</value>
+      <footprint>Connector_Pin:Pin_D1.2mm_L10.2mm_W2.9mm_FlatFork</footprint>
+      <fields>
+        <field name="Distributor">DIGIKEY</field>
+        <field name="Distributor Part #">36-4952-ND</field>
+        <field name="Part #">4952</field>
+        <field name="Unit Price">0.26</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint_Alt" description="test point (alternative shape)"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="DIGIKEY"/>
+      <property name="Distributor Part #" value="36-4952-ND"/>
+      <property name="Part #" value="4952"/>
+      <property name="Price" value=""/>
+      <property name="Unit Price" value="0.26"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LC_meter.kicad_sch"/>
+      <property name="ki_description" value="test point (alternative shape)"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f6190cfd-1260-4a58-8086-562b1c597f84</tstamps>
+    </comp>
+    <comp ref="TP13">
+      <value>4952</value>
+      <footprint>Connector_Pin:Pin_D1.2mm_L10.2mm_W2.9mm_FlatFork</footprint>
+      <fields>
+        <field name="Distributor">DIGIKEY</field>
+        <field name="Distributor Part #">36-4952-ND</field>
+        <field name="Part #">4952</field>
+        <field name="Unit Price">0.26</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint_Alt" description="test point (alternative shape)"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="DIGIKEY"/>
+      <property name="Distributor Part #" value="36-4952-ND"/>
+      <property name="Part #" value="4952"/>
+      <property name="Price" value=""/>
+      <property name="Unit Price" value="0.26"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LC_meter.kicad_sch"/>
+      <property name="ki_description" value="test point (alternative shape)"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d25bb7c1-666d-4c75-9cb1-b34307220df4</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>Raspberry Pi Pico SC0915</value>
+      <footprint>LC_meter:MODULE_SC0915</footprint>
+      <fields>
+        <field name="Distributor">DIGIKEY</field>
+        <field name="Distributor Part #">2648-SC0915CT-ND</field>
+        <field name="Part #">SC0915</field>
+        <field name="Unit Price">4</field>
+      </fields>
+      <libsource lib="LCR_parts" part="SC0915" description=""/>
+      <property name="Price" value=""/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="DIGIKEY"/>
+      <property name="Distributor Part #" value="2648-SC0915CT-ND"/>
+      <property name="Part #" value="SC0915"/>
+      <property name="Unit Price" value="4"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LC_meter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1a81090a-3928-403d-a6e1-9ebf58a0bf28</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>LM1117DT-3.3</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-3_TabPin2</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm1117.pdf</datasheet>
+      <fields>
+        <field name="Distributor">DIGIKEY</field>
+        <field name="Distributor Part #">LM1117DT-3.3/NOPB-ND</field>
+        <field name="Part #">LM1117DT-3.3/NOPB</field>
+        <field name="Unit Price">1.81</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="LM1117DT-3.3" description="800mA Low-Dropout Linear Regulator, 3.3V fixed output, TO-252"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="DIGIKEY"/>
+      <property name="Distributor Part #" value="LM1117DT-3.3/NOPB-ND"/>
+      <property name="Part #" value="LM1117DT-3.3/NOPB"/>
+      <property name="Price" value=""/>
+      <property name="Unit Price" value="1.81"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LC_meter.kicad_sch"/>
+      <property name="ki_description" value="800mA Low-Dropout Linear Regulator, 3.3V fixed output, TO-252"/>
+      <property name="ki_keywords" value="linear regulator ldo fixed positive"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d44b1b3c-7fae-486c-853d-02512c1ef8c6</tstamps>
+    </comp>
+    <comp ref="U8">
+      <value>LM1117DT-5.0</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-3_TabPin2</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm1117.pdf</datasheet>
+      <fields>
+        <field name="Distributor">DIGIKEY</field>
+        <field name="Distributor Part #">LM1117DT-5.0/NOPB-ND</field>
+        <field name="Part #">LM1117DT-5.0/NOPB</field>
+        <field name="Unit Price">1.81</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="LM1117DT-5.0" description="800mA Low-Dropout Linear Regulator, 5.0V fixed output, TO-252"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="DIGIKEY"/>
+      <property name="Distributor Part #" value="LM1117DT-5.0/NOPB-ND"/>
+      <property name="Part #" value="LM1117DT-5.0/NOPB"/>
+      <property name="Price" value=""/>
+      <property name="Unit Price" value="1.81"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LC_meter.kicad_sch"/>
+      <property name="ki_description" value="800mA Low-Dropout Linear Regulator, 5.0V fixed output, TO-252"/>
+      <property name="ki_keywords" value="linear regulator ldo fixed positive"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>48d38a03-e66b-4e63-8c0a-55b16ec05cd6</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Distributor">DIGIKEY</field>
+        <field name="Distributor Part #">1276-1003-1-ND</field>
+        <field name="Part #">CL21B104KBCNNNC</field>
+        <field name="Unit Price">0.1</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="DIGIKEY"/>
+      <property name="Distributor Part #" value="1276-1003-1-ND"/>
+      <property name="Part #" value="CL21B104KBCNNNC"/>
+      <property name="Price" value=""/>
+      <property name="Unit Price" value="0.1"/>
+      <property name="Sheetname" value="Analog Front End"/>
+      <property name="Sheetfile" value="analog_front_end.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Analog Front End/" tstamps="/2f1a03b0-7946-4e7c-ad47-38a79c8ba450/"/>
+      <tstamps>2c76a152-6edd-4d78-92b1-b8784f0e0113</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Distributor">DIGIKEY</field>
+        <field name="Distributor Part #">1276-1261-1-ND</field>
+        <field name="Part #">CL21C101JCANNNC</field>
+        <field name="Unit Price">0.1</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="DIGIKEY"/>
+      <property name="Distributor Part #" value="1276-1261-1-ND"/>
+      <property name="Part #" value="CL21C101JCANNNC"/>
+      <property name="Price" value=""/>
+      <property name="Unit Price" value="0.1"/>
+      <property name="Sheetname" value="Analog Front End"/>
+      <property name="Sheetfile" value="analog_front_end.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Analog Front End/" tstamps="/2f1a03b0-7946-4e7c-ad47-38a79c8ba450/"/>
+      <tstamps>56fd12ca-a84d-41cb-a308-26244abdc165</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>100pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Distributor">DIGIKEY</field>
+        <field name="Distributor Part #">1276-1261-1-ND</field>
+        <field name="Part #">CL21C101JCANNNC</field>
+        <field name="Unit Price">0.1</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="DIGIKEY"/>
+      <property name="Distributor Part #" value="1276-1261-1-ND"/>
+      <property name="Part #" value="CL21C101JCANNNC"/>
+      <property name="Price" value=""/>
+      <property name="Unit Price" value="0.1"/>
+      <property name="Sheetname" value="Analog Front End"/>
+      <property name="Sheetfile" value="analog_front_end.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Analog Front End/" tstamps="/2f1a03b0-7946-4e7c-ad47-38a79c8ba450/"/>
+      <tstamps>ef93a6a0-0daa-46fa-8725-7fcf0d41905b</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>100pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Distributor">DIGIKEY</field>
+        <field name="Distributor Part #">1276-1261-1-ND</field>
+        <field name="Part #">CL21C101JCANNNC</field>
+        <field name="Unit Price">0.1</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="DIGIKEY"/>
+      <property name="Distributor Part #" value="1276-1261-1-ND"/>
+      <property name="Part #" value="CL21C101JCANNNC"/>
+      <property name="Price" value=""/>
+      <property name="Unit Price" value="0.1"/>
+      <property name="Sheetname" value="Analog Front End"/>
+      <property name="Sheetfile" value="analog_front_end.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Analog Front End/" tstamps="/2f1a03b0-7946-4e7c-ad47-38a79c8ba450/"/>
+      <tstamps>e55a97e6-d6ae-4548-9e86-1ae09d5f4f48</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Distributor">DIGIKEY</field>
+        <field name="Distributor Part #">1276-1003-1-ND</field>
+        <field name="Part #">CL21B104KBCNNNC</field>
+        <field name="Unit Price">0.1</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="DIGIKEY"/>
+      <property name="Distributor Part #" value="1276-1003-1-ND"/>
+      <property name="Part #" value="CL21B104KBCNNNC"/>
+      <property name="Price" value=""/>
+      <property name="Unit Price" value="0.1"/>
+      <property name="Sheetname" value="Analog Front End"/>
+      <property name="Sheetfile" value="analog_front_end.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Analog Front End/" tstamps="/2f1a03b0-7946-4e7c-ad47-38a79c8ba450/"/>
+      <tstamps>15d328e6-a50a-4572-b6c4-61245b7c777a</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>PNU</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Distributor">N/A</field>
+        <field name="Distributor Part #">N/A</field>
+        <field name="Part #">N/A</field>
+        <field name="Price">N/A</field>
+        <field name="Unit Price">N/A</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="N/A"/>
+      <property name="Distributor Part #" value="N/A"/>
+      <property name="Part #" value="N/A"/>
+      <property name="Price" value="N/A"/>
+      <property name="Unit Price" value="N/A"/>
+      <property name="Sheetname" value="Analog Front End"/>
+      <property name="Sheetfile" value="analog_front_end.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Analog Front End/" tstamps="/2f1a03b0-7946-4e7c-ad47-38a79c8ba450/"/>
+      <tstamps>20d46d62-3f65-4ebc-a013-5f5cb0b666f0</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>PNU</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Distributor">N/A</field>
+        <field name="Distributor Part #">N/A</field>
+        <field name="Part #">N/A</field>
+        <field name="Price">N/A</field>
+        <field name="Unit Price">N/A</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="N/A"/>
+      <property name="Distributor Part #" value="N/A"/>
+      <property name="Part #" value="N/A"/>
+      <property name="Price" value="N/A"/>
+      <property name="Unit Price" value="N/A"/>
+      <property name="Sheetname" value="Analog Front End"/>
+      <property name="Sheetfile" value="analog_front_end.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Analog Front End/" tstamps="/2f1a03b0-7946-4e7c-ad47-38a79c8ba450/"/>
+      <tstamps>bfa2cff1-10d0-4ec0-a1de-494b32c46cc7</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Distributor">DIGIKEY</field>
+        <field name="Distributor Part #">1276-1003-1-ND</field>
+        <field name="Part #">CL21B104KBCNNNC</field>
+        <field name="Unit Price">0.1</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="DIGIKEY"/>
+      <property name="Distributor Part #" value="1276-1003-1-ND"/>
+      <property name="Part #" value="CL21B104KBCNNNC"/>
+      <property name="Price" value=""/>
+      <property name="Unit Price" value="0.1"/>
+      <property name="Sheetname" value="Analog Front End"/>
+      <property name="Sheetfile" value="analog_front_end.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Analog Front End/" tstamps="/2f1a03b0-7946-4e7c-ad47-38a79c8ba450/"/>
+      <tstamps>910b90f3-6ad2-4c0e-9d92-d09369c90a98</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Distributor">DIGIKEY</field>
+        <field name="Distributor Part #">1276-1096-1-ND</field>
+        <field name="Part #">CL21A106KOQNNNE</field>
+        <field name="Unit Price">0.1</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="DIGIKEY"/>
+      <property name="Distributor Part #" value="1276-1096-1-ND"/>
+      <property name="Part #" value="CL21A106KOQNNNE"/>
+      <property name="Price" value=""/>
+      <property name="Unit Price" value="0.1"/>
+      <property name="Sheetname" value="Analog Front End"/>
+      <property name="Sheetfile" value="analog_front_end.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Analog Front End/" tstamps="/2f1a03b0-7946-4e7c-ad47-38a79c8ba450/"/>
+      <tstamps>e965cbb3-a961-49b7-9adc-f0c83f993820</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Distributor">DIGIKEY</field>
+        <field name="Distributor Part #">1276-1003-1-ND</field>
+        <field name="Part #">CL21B104KBCNNNC</field>
+        <field name="Unit Price">0.1</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="DIGIKEY"/>
+      <property name="Distributor Part #" value="1276-1003-1-ND"/>
+      <property name="Part #" value="CL21B104KBCNNNC"/>
+      <property name="Price" value=""/>
+      <property name="Unit Price" value="0.1"/>
+      <property name="Sheetname" value="Analog Front End"/>
+      <property name="Sheetfile" value="analog_front_end.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Analog Front End/" tstamps="/2f1a03b0-7946-4e7c-ad47-38a79c8ba450/"/>
+      <tstamps>4f54e1d0-e24d-4357-9430-073e1b457a79</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>PNU</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Distributor">N/A</field>
+        <field name="Distributor Part #">N/A</field>
+        <field name="Part #">N/A</field>
+        <field name="Price">N/A</field>
+        <field name="Unit Price">N/A</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="N/A"/>
+      <property name="Distributor Part #" value="N/A"/>
+      <property name="Part #" value="N/A"/>
+      <property name="Price" value="N/A"/>
+      <property name="Unit Price" value="N/A"/>
+      <property name="Sheetname" value="Analog Front End"/>
+      <property name="Sheetfile" value="analog_front_end.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Analog Front End/" tstamps="/2f1a03b0-7946-4e7c-ad47-38a79c8ba450/"/>
+      <tstamps>f621876c-a3ba-4b2e-89d9-1d2ce15c6abe</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>PNU</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Distributor">N/A</field>
+        <field name="Distributor Part #">N/A</field>
+        <field name="Part #">N/A</field>
+        <field name="Price">N/A</field>
+        <field name="Unit Price">N/A</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="N/A"/>
+      <property name="Distributor Part #" value="N/A"/>
+      <property name="Part #" value="N/A"/>
+      <property name="Price" value="N/A"/>
+      <property name="Unit Price" value="N/A"/>
+      <property name="Sheetname" value="Analog Front End"/>
+      <property name="Sheetfile" value="analog_front_end.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Analog Front End/" tstamps="/2f1a03b0-7946-4e7c-ad47-38a79c8ba450/"/>
+      <tstamps>ea9daee1-5e2b-4ff2-b19a-3f56acc2327e</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Distributor">DIGIKEY</field>
+        <field name="Distributor Part #">1276-1003-1-ND</field>
+        <field name="Part #">CL21B104KBCNNNC</field>
+        <field name="Unit Price">0.1</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="DIGIKEY"/>
+      <property name="Distributor Part #" value="1276-1003-1-ND"/>
+      <property name="Part #" value="CL21B104KBCNNNC"/>
+      <property name="Price" value=""/>
+      <property name="Unit Price" value="0.1"/>
+      <property name="Sheetname" value="Analog Front End"/>
+      <property name="Sheetfile" value="analog_front_end.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Analog Front End/" tstamps="/2f1a03b0-7946-4e7c-ad47-38a79c8ba450/"/>
+      <tstamps>5b9fd72f-64dd-4a37-ba12-2f7af6008fc0</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>DUT</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal</footprint>
+      <fields>
+        <field name="Distributor">DIGIKEY</field>
+        <field name="Distributor Part #">ED10561-ND</field>
+        <field name="Part #">OSTVN02A150</field>
+        <field name="Unit Price">1.08</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="DIGIKEY"/>
+      <property name="Distributor Part #" value="ED10561-ND"/>
+      <property name="Part #" value="OSTVN02A150"/>
+      <property name="Price" value=""/>
+      <property name="Unit Price" value="1.08"/>
+      <property name="Sheetname" value="Analog Front End"/>
+      <property name="Sheetfile" value="analog_front_end.kicad_sch"/>
+      <property name="ki_description" value="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <sheetpath names="/Analog Front End/" tstamps="/2f1a03b0-7946-4e7c-ad47-38a79c8ba450/"/>
+      <tstamps>2d2c1e9b-b606-40f6-93b6-73b2d61ed722</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Switch</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal</footprint>
+      <fields>
+        <field name="Distributor">DIGIKEY</field>
+        <field name="Distributor Part #">ED10563-ND</field>
+        <field name="Part #">OSTVN04A150</field>
+        <field name="Unit Price">1.64</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x04" description="Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="DIGIKEY"/>
+      <property name="Distributor Part #" value="ED10563-ND"/>
+      <property name="Part #" value="OSTVN04A150"/>
+      <property name="Price" value=""/>
+      <property name="Unit Price" value="1.64"/>
+      <property name="Sheetname" value="Analog Front End"/>
+      <property name="Sheetfile" value="analog_front_end.kicad_sch"/>
+      <property name="ki_description" value="Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <sheetpath names="/Analog Front End/" tstamps="/2f1a03b0-7946-4e7c-ad47-38a79c8ba450/"/>
+      <tstamps>6315ace0-ea51-4047-a18d-79f7330366c6</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Switch</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal</footprint>
+      <fields>
+        <field name="Distributor">DIGIKEY</field>
+        <field name="Distributor Part #">ED10563-ND</field>
+        <field name="Part #">OSTVN04A150</field>
+        <field name="Unit Price">1.64</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x04" description="Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="DIGIKEY"/>
+      <property name="Distributor Part #" value="ED10563-ND"/>
+      <property name="Part #" value="OSTVN04A150"/>
+      <property name="Price" value=""/>
+      <property name="Unit Price" value="1.64"/>
+      <property name="Sheetname" value="Analog Front End"/>
+      <property name="Sheetfile" value="analog_front_end.kicad_sch"/>
+      <property name="ki_description" value="Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <sheetpath names="/Analog Front End/" tstamps="/2f1a03b0-7946-4e7c-ad47-38a79c8ba450/"/>
+      <tstamps>00f52844-b4a8-4f03-b092-f4f466c94831</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>Switch</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal</footprint>
+      <fields>
+        <field name="Distributor">DIGIKEY</field>
+        <field name="Distributor Part #">ED10563-ND</field>
+        <field name="Part #">OSTVN04A150</field>
+        <field name="Unit Price">1.64</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x04" description="Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="DIGIKEY"/>
+      <property name="Distributor Part #" value="ED10563-ND"/>
+      <property name="Part #" value="OSTVN04A150"/>
+      <property name="Price" value=""/>
+      <property name="Unit Price" value="1.64"/>
+      <property name="Sheetname" value="Analog Front End"/>
+      <property name="Sheetfile" value="analog_front_end.kicad_sch"/>
+      <property name="ki_description" value="Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <sheetpath names="/Analog Front End/" tstamps="/2f1a03b0-7946-4e7c-ad47-38a79c8ba450/"/>
+      <tstamps>4b9d9fb9-9ab7-40f5-96c4-7b311414ca9a</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>Switch</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal</footprint>
+      <fields>
+        <field name="Distributor">DIGIKEY</field>
+        <field name="Distributor Part #">ED10563-ND</field>
+        <field name="Part #">OSTVN04A150</field>
+        <field name="Unit Price">1.64</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x04" description="Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="DIGIKEY"/>
+      <property name="Distributor Part #" value="ED10563-ND"/>
+      <property name="Part #" value="OSTVN04A150"/>
+      <property name="Price" value=""/>
+      <property name="Unit Price" value="1.64"/>
+      <property name="Sheetname" value="Analog Front End"/>
+      <property name="Sheetfile" value="analog_front_end.kicad_sch"/>
+      <property name="ki_description" value="Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <sheetpath names="/Analog Front End/" tstamps="/2f1a03b0-7946-4e7c-ad47-38a79c8ba450/"/>
+      <tstamps>a4b42010-e207-41ea-8804-194e9cb64de6</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10k+/-0.1%</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Distributor">DIGIKEY</field>
+        <field name="Distributor Part #">P10KDACT-ND</field>
+        <field name="Part #">ERA-6AEB103V</field>
+        <field name="Unit Price">0.32</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="DIGIKEY"/>
+      <property name="Distributor Part #" value="P10KDACT-ND"/>
+      <property name="Part #" value="ERA-6AEB103V"/>
+      <property name="Price" value=""/>
+      <property name="Unit Price" value="0.32"/>
+      <property name="Sheetname" value="Analog Front End"/>
+      <property name="Sheetfile" value="analog_front_end.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Analog Front End/" tstamps="/2f1a03b0-7946-4e7c-ad47-38a79c8ba450/"/>
+      <tstamps>5e8f1d3a-7453-4119-9157-e429a5016796</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10k+/-0.1%</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Distributor">DIGIKEY</field>
+        <field name="Distributor Part #">P10KDACT-ND</field>
+        <field name="Part #">ERA-6AEB103V</field>
+        <field name="Unit Price">0.32</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="DIGIKEY"/>
+      <property name="Distributor Part #" value="P10KDACT-ND"/>
+      <property name="Part #" value="ERA-6AEB103V"/>
+      <property name="Price" value=""/>
+      <property name="Unit Price" value="0.32"/>
+      <property name="Sheetname" value="Analog Front End"/>
+      <property name="Sheetfile" value="analog_front_end.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Analog Front End/" tstamps="/2f1a03b0-7946-4e7c-ad47-38a79c8ba450/"/>
+      <tstamps>02d3bb5b-aeaa-4150-8615-5a12f1adb264</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>499+/-0.1%</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Distributor">DIGIKEY</field>
+        <field name="Distributor Part #">RG20P499BCT-ND</field>
+        <field name="Part #">RG2012P-4990-B-T5</field>
+        <field name="Unit Price">0.48</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="DIGIKEY"/>
+      <property name="Distributor Part #" value="RG20P499BCT-ND"/>
+      <property name="Part #" value="RG2012P-4990-B-T5"/>
+      <property name="Price" value=""/>
+      <property name="Unit Price" value="0.48"/>
+      <property name="Sheetname" value="Analog Front End"/>
+      <property name="Sheetfile" value="analog_front_end.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Analog Front End/" tstamps="/2f1a03b0-7946-4e7c-ad47-38a79c8ba450/"/>
+      <tstamps>c9529446-ad6e-4735-950b-79d1112e41bd</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>6.49k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Distributor">DIGIKEY</field>
+        <field name="Distributor Part #">RMCF0805FT6K49CT-ND</field>
+        <field name="Part #">RMCF0805FT6K49</field>
+        <field name="Unit Price">0.1</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="DIGIKEY"/>
+      <property name="Distributor Part #" value="RMCF0805FT6K49CT-ND"/>
+      <property name="Part #" value="RMCF0805FT6K49"/>
+      <property name="Price" value=""/>
+      <property name="Unit Price" value="0.1"/>
+      <property name="Sheetname" value="Analog Front End"/>
+      <property name="Sheetfile" value="analog_front_end.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Analog Front End/" tstamps="/2f1a03b0-7946-4e7c-ad47-38a79c8ba450/"/>
+      <tstamps>ee5e3653-d465-43e6-8781-f76774af502a</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>4.99k+/-0.1%</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Distributor">DIGIKEY</field>
+        <field name="Distributor Part #">P4.99KDACT-ND</field>
+        <field name="Part #">ERA-6AEB4991V</field>
+        <field name="Unit Price">0.32</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="DIGIKEY"/>
+      <property name="Distributor Part #" value="P4.99KDACT-ND"/>
+      <property name="Part #" value="ERA-6AEB4991V"/>
+      <property name="Price" value=""/>
+      <property name="Unit Price" value="0.32"/>
+      <property name="Sheetname" value="Analog Front End"/>
+      <property name="Sheetfile" value="analog_front_end.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Analog Front End/" tstamps="/2f1a03b0-7946-4e7c-ad47-38a79c8ba450/"/>
+      <tstamps>a7b63d01-ae4c-403b-ac3b-41ed3c9f6538</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>49.9k+/-0.1%</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Distributor">DIGIKEY</field>
+        <field name="Distributor Part #">P49.9KDACT-ND</field>
+        <field name="Part #">ERA-6AEB4992V</field>
+        <field name="Unit Price">0.32</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="DIGIKEY"/>
+      <property name="Distributor Part #" value="P49.9KDACT-ND"/>
+      <property name="Part #" value="ERA-6AEB4992V"/>
+      <property name="Price" value=""/>
+      <property name="Unit Price" value="0.32"/>
+      <property name="Sheetname" value="Analog Front End"/>
+      <property name="Sheetfile" value="analog_front_end.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Analog Front End/" tstamps="/2f1a03b0-7946-4e7c-ad47-38a79c8ba450/"/>
+      <tstamps>4c386ba5-890d-49ff-b061-c92cca944958</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>499k+/-0.1%</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Distributor">DIGIKEY</field>
+        <field name="Distributor Part #">RG20P499KBCT-ND</field>
+        <field name="Part #">RG2012P-4993-B-T5</field>
+        <field name="Unit Price">0.48</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="DIGIKEY"/>
+      <property name="Distributor Part #" value="RG20P499KBCT-ND"/>
+      <property name="Part #" value="RG2012P-4993-B-T5"/>
+      <property name="Price" value=""/>
+      <property name="Unit Price" value="0.48"/>
+      <property name="Sheetname" value="Analog Front End"/>
+      <property name="Sheetfile" value="analog_front_end.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Analog Front End/" tstamps="/2f1a03b0-7946-4e7c-ad47-38a79c8ba450/"/>
+      <tstamps>9c0b361f-eec5-4174-b49d-2ead3ebb7cf4</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>13k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Distributor">DIGIKEY</field>
+        <field name="Distributor Part #">RMCF0805FT13K0CT-ND</field>
+        <field name="Part #">RMCF0805FT13K0</field>
+        <field name="Unit Price">0.1</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="DIGIKEY"/>
+      <property name="Distributor Part #" value="RMCF0805FT13K0CT-ND"/>
+      <property name="Part #" value="RMCF0805FT13K0"/>
+      <property name="Price" value=""/>
+      <property name="Unit Price" value="0.1"/>
+      <property name="Sheetname" value="Analog Front End"/>
+      <property name="Sheetfile" value="analog_front_end.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Analog Front End/" tstamps="/2f1a03b0-7946-4e7c-ad47-38a79c8ba450/"/>
+      <tstamps>5d108c5b-6052-42a8-b3b7-93b81f4b6142</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>13k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Distributor">DIGIKEY</field>
+        <field name="Distributor Part #">RMCF0805FT13K0CT-ND</field>
+        <field name="Part #">RMCF0805FT13K0</field>
+        <field name="Unit Price">0.1</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="DIGIKEY"/>
+      <property name="Distributor Part #" value="RMCF0805FT13K0CT-ND"/>
+      <property name="Part #" value="RMCF0805FT13K0"/>
+      <property name="Price" value=""/>
+      <property name="Unit Price" value="0.1"/>
+      <property name="Sheetname" value="Analog Front End"/>
+      <property name="Sheetfile" value="analog_front_end.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Analog Front End/" tstamps="/2f1a03b0-7946-4e7c-ad47-38a79c8ba450/"/>
+      <tstamps>307fb5bf-7449-4479-8857-cb7f4f0bd4a8</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>13k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Distributor">DIGIKEY</field>
+        <field name="Distributor Part #">RMCF0805FT13K0CT-ND</field>
+        <field name="Part #">RMCF0805FT13K0</field>
+        <field name="Unit Price">0.1</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="DIGIKEY"/>
+      <property name="Distributor Part #" value="RMCF0805FT13K0CT-ND"/>
+      <property name="Part #" value="RMCF0805FT13K0"/>
+      <property name="Price" value=""/>
+      <property name="Unit Price" value="0.1"/>
+      <property name="Sheetname" value="Analog Front End"/>
+      <property name="Sheetfile" value="analog_front_end.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Analog Front End/" tstamps="/2f1a03b0-7946-4e7c-ad47-38a79c8ba450/"/>
+      <tstamps>a9d6b491-5509-4a29-beb4-0462974e2415</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>13k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Distributor">DIGIKEY</field>
+        <field name="Distributor Part #">RMCF0805FT13K0CT-ND</field>
+        <field name="Part #">RMCF0805FT13K0</field>
+        <field name="Unit Price">0.1</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="DIGIKEY"/>
+      <property name="Distributor Part #" value="RMCF0805FT13K0CT-ND"/>
+      <property name="Part #" value="RMCF0805FT13K0"/>
+      <property name="Price" value=""/>
+      <property name="Unit Price" value="0.1"/>
+      <property name="Sheetname" value="Analog Front End"/>
+      <property name="Sheetfile" value="analog_front_end.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Analog Front End/" tstamps="/2f1a03b0-7946-4e7c-ad47-38a79c8ba450/"/>
+      <tstamps>e20d6728-a424-4378-a299-85b0a51c8ef4</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>187k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Distributor">DIGIKEY</field>
+        <field name="Distributor Part #">738-RMCF0805FT187KCT-ND</field>
+        <field name="Part #">RMCF0805FT187K</field>
+        <field name="Unit Price">0.1</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="DIGIKEY"/>
+      <property name="Distributor Part #" value="738-RMCF0805FT187KCT-ND"/>
+      <property name="Part #" value="RMCF0805FT187K"/>
+      <property name="Price" value=""/>
+      <property name="Unit Price" value="0.1"/>
+      <property name="Sheetname" value="Analog Front End"/>
+      <property name="Sheetfile" value="analog_front_end.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Analog Front End/" tstamps="/2f1a03b0-7946-4e7c-ad47-38a79c8ba450/"/>
+      <tstamps>27612c1e-3dce-454b-9cf3-678b3185d2d7</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>249+/-0.1%</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Distributor">DIGIKEY</field>
+        <field name="Distributor Part #">P20523CT-ND</field>
+        <field name="Part #">ERJ-PB6B2490V</field>
+        <field name="Unit Price">0.37</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="DIGIKEY"/>
+      <property name="Distributor Part #" value="P20523CT-ND"/>
+      <property name="Part #" value="ERJ-PB6B2490V"/>
+      <property name="Price" value=""/>
+      <property name="Unit Price" value="0.37"/>
+      <property name="Sheetname" value="Analog Front End"/>
+      <property name="Sheetfile" value="analog_front_end.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Analog Front End/" tstamps="/2f1a03b0-7946-4e7c-ad47-38a79c8ba450/"/>
+      <tstamps>e97ce983-a37f-4d54-9476-f6d0f511e96f</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>2.49k+/-0.1%</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Distributor">DIGIKEY</field>
+        <field name="Distributor Part #">13-RP0805BRD072K49LCT-ND</field>
+        <field name="Part #">RP0805BRD072K49L</field>
+        <field name="Unit Price">0.48</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="DIGIKEY"/>
+      <property name="Distributor Part #" value="13-RP0805BRD072K49LCT-ND"/>
+      <property name="Part #" value="RP0805BRD072K49L"/>
+      <property name="Price" value=""/>
+      <property name="Unit Price" value="0.48"/>
+      <property name="Sheetname" value="Analog Front End"/>
+      <property name="Sheetfile" value="analog_front_end.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Analog Front End/" tstamps="/2f1a03b0-7946-4e7c-ad47-38a79c8ba450/"/>
+      <tstamps>6474733c-33e3-47d4-96ff-265aa3467855</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>2.21k+/-0.1%</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Distributor">DIGIKEY</field>
+        <field name="Distributor Part #">P2.21KDACT-ND</field>
+        <field name="Part #">ERA-6AEB2211V</field>
+        <field name="Unit Price">0.32</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="DIGIKEY"/>
+      <property name="Distributor Part #" value="P2.21KDACT-ND"/>
+      <property name="Part #" value="ERA-6AEB2211V"/>
+      <property name="Price" value=""/>
+      <property name="Unit Price" value="0.32"/>
+      <property name="Sheetname" value="Analog Front End"/>
+      <property name="Sheetfile" value="analog_front_end.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Analog Front End/" tstamps="/2f1a03b0-7946-4e7c-ad47-38a79c8ba450/"/>
+      <tstamps>7ec65012-d436-4b51-a9af-323a34f5ebf9</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>10k+/-0.1%</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Distributor">DIGIKEY</field>
+        <field name="Distributor Part #">P10KDACT-ND</field>
+        <field name="Part #">ERA-6AEB103V</field>
+        <field name="Unit Price">0.32</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="DIGIKEY"/>
+      <property name="Distributor Part #" value="P10KDACT-ND"/>
+      <property name="Part #" value="ERA-6AEB103V"/>
+      <property name="Price" value=""/>
+      <property name="Unit Price" value="0.32"/>
+      <property name="Sheetname" value="Analog Front End"/>
+      <property name="Sheetfile" value="analog_front_end.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Analog Front End/" tstamps="/2f1a03b0-7946-4e7c-ad47-38a79c8ba450/"/>
+      <tstamps>c7d0ea80-e657-48cd-bc50-83c4076daaf3</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Distributor">DIGIKEY</field>
+        <field name="Distributor Part #">RMCF0805FT10K0CT-ND</field>
+        <field name="Part #">RMCF0805FT10K0</field>
+        <field name="Unit Price">0.1</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="DIGIKEY"/>
+      <property name="Distributor Part #" value="RMCF0805FT10K0CT-ND"/>
+      <property name="Part #" value="RMCF0805FT10K0"/>
+      <property name="Price" value=""/>
+      <property name="Unit Price" value="0.1"/>
+      <property name="Sheetname" value="Analog Front End"/>
+      <property name="Sheetfile" value="analog_front_end.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Analog Front End/" tstamps="/2f1a03b0-7946-4e7c-ad47-38a79c8ba450/"/>
+      <tstamps>ac9c7f44-3a73-43a0-9b15-bdd50a91da9b</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Distributor">DIGIKEY</field>
+        <field name="Distributor Part #">RMCF0805FT1K00CT-ND</field>
+        <field name="Part #">RMCF0805FT1K00</field>
+        <field name="Unit Price">0.1</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="DIGIKEY"/>
+      <property name="Distributor Part #" value="RMCF0805FT1K00CT-ND"/>
+      <property name="Part #" value="RMCF0805FT1K00"/>
+      <property name="Price" value=""/>
+      <property name="Unit Price" value="0.1"/>
+      <property name="Sheetname" value="Analog Front End"/>
+      <property name="Sheetfile" value="analog_front_end.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Analog Front End/" tstamps="/2f1a03b0-7946-4e7c-ad47-38a79c8ba450/"/>
+      <tstamps>d133e9c0-c0d3-4588-a46a-775b71379761</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>PNU</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Distributor">N/A</field>
+        <field name="Distributor Part #">N/A</field>
+        <field name="Part #">N/A</field>
+        <field name="Price">N/A</field>
+        <field name="Unit Price">N/A</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="N/A"/>
+      <property name="Distributor Part #" value="N/A"/>
+      <property name="Part #" value="N/A"/>
+      <property name="Price" value="N/A"/>
+      <property name="Unit Price" value="N/A"/>
+      <property name="Sheetname" value="Analog Front End"/>
+      <property name="Sheetfile" value="analog_front_end.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Analog Front End/" tstamps="/2f1a03b0-7946-4e7c-ad47-38a79c8ba450/"/>
+      <tstamps>a5a6df21-ec6d-4c1b-ac41-aa01aaabdee5</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>PNU</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Distributor">N/A</field>
+        <field name="Distributor Part #">N/A</field>
+        <field name="Part #">N/A</field>
+        <field name="Price">N/A</field>
+        <field name="Unit Price">N/A</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="N/A"/>
+      <property name="Distributor Part #" value="N/A"/>
+      <property name="Part #" value="N/A"/>
+      <property name="Price" value="N/A"/>
+      <property name="Unit Price" value="N/A"/>
+      <property name="Sheetname" value="Analog Front End"/>
+      <property name="Sheetfile" value="analog_front_end.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Analog Front End/" tstamps="/2f1a03b0-7946-4e7c-ad47-38a79c8ba450/"/>
+      <tstamps>84e2891f-d9a7-4b78-9fd6-9f444d657a8d</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>2.21k+/-0.1%</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Distributor">DIGIKEY</field>
+        <field name="Distributor Part #">P2.21KDACT-ND</field>
+        <field name="Part #">ERA-6AEB2211V</field>
+        <field name="Unit Price">0.32</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="DIGIKEY"/>
+      <property name="Distributor Part #" value="P2.21KDACT-ND"/>
+      <property name="Part #" value="ERA-6AEB2211V"/>
+      <property name="Price" value=""/>
+      <property name="Unit Price" value="0.32"/>
+      <property name="Sheetname" value="Analog Front End"/>
+      <property name="Sheetfile" value="analog_front_end.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Analog Front End/" tstamps="/2f1a03b0-7946-4e7c-ad47-38a79c8ba450/"/>
+      <tstamps>7fc21aac-a068-4165-9dbb-5039f0999f9e</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>10k+/-0.1%</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Distributor">DIGIKEY</field>
+        <field name="Distributor Part #">P10KDACT-ND</field>
+        <field name="Part #">ERA-6AEB103V</field>
+        <field name="Unit Price">0.32</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="DIGIKEY"/>
+      <property name="Distributor Part #" value="P10KDACT-ND"/>
+      <property name="Part #" value="ERA-6AEB103V"/>
+      <property name="Price" value=""/>
+      <property name="Unit Price" value="0.32"/>
+      <property name="Sheetname" value="Analog Front End"/>
+      <property name="Sheetfile" value="analog_front_end.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Analog Front End/" tstamps="/2f1a03b0-7946-4e7c-ad47-38a79c8ba450/"/>
+      <tstamps>7936e03b-5188-46e6-862f-05b17786aa29</tstamps>
+    </comp>
+    <comp ref="R30">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Distributor">DIGIKEY</field>
+        <field name="Distributor Part #">RMCF0805FT10K0CT-ND</field>
+        <field name="Part #">RMCF0805FT10K0</field>
+        <field name="Unit Price">0.1</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="DIGIKEY"/>
+      <property name="Distributor Part #" value="RMCF0805FT10K0CT-ND"/>
+      <property name="Part #" value="RMCF0805FT10K0"/>
+      <property name="Price" value=""/>
+      <property name="Unit Price" value="0.1"/>
+      <property name="Sheetname" value="Analog Front End"/>
+      <property name="Sheetfile" value="analog_front_end.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Analog Front End/" tstamps="/2f1a03b0-7946-4e7c-ad47-38a79c8ba450/"/>
+      <tstamps>3ac590dd-f212-4617-9707-b0a59c60e2e3</tstamps>
+    </comp>
+    <comp ref="R31">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="Distributor">DIGIKEY</field>
+        <field name="Distributor Part #">RMCF0805FT10K0CT-ND</field>
+        <field name="Part #">RMCF0805FT10K0</field>
+        <field name="Unit Price">0.1</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="DIGIKEY"/>
+      <property name="Distributor Part #" value="RMCF0805FT10K0CT-ND"/>
+      <property name="Part #" value="RMCF0805FT10K0"/>
+      <property name="Price" value=""/>
+      <property name="Unit Price" value="0.1"/>
+      <property name="Sheetname" value="Analog Front End"/>
+      <property name="Sheetfile" value="analog_front_end.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Analog Front End/" tstamps="/2f1a03b0-7946-4e7c-ad47-38a79c8ba450/"/>
+      <tstamps>2618197c-cfff-4a84-82e0-06ad16b08c17</tstamps>
+    </comp>
+    <comp ref="TP4">
+      <value>4952</value>
+      <footprint>Connector_Pin:Pin_D1.2mm_L10.2mm_W2.9mm_FlatFork</footprint>
+      <fields>
+        <field name="Distributor">DIGIKEY</field>
+        <field name="Distributor Part #">36-4952-ND</field>
+        <field name="Part #">4952</field>
+        <field name="Unit Price">0.26</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint_Alt" description="test point (alternative shape)"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="DIGIKEY"/>
+      <property name="Distributor Part #" value="36-4952-ND"/>
+      <property name="Part #" value="4952"/>
+      <property name="Price" value=""/>
+      <property name="Unit Price" value="0.26"/>
+      <property name="Sheetname" value="Analog Front End"/>
+      <property name="Sheetfile" value="analog_front_end.kicad_sch"/>
+      <property name="ki_description" value="test point (alternative shape)"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Analog Front End/" tstamps="/2f1a03b0-7946-4e7c-ad47-38a79c8ba450/"/>
+      <tstamps>76cc5d59-6978-4c8d-86f9-bf2777f24485</tstamps>
+    </comp>
+    <comp ref="TP5">
+      <value>4952</value>
+      <footprint>Connector_Pin:Pin_D1.2mm_L10.2mm_W2.9mm_FlatFork</footprint>
+      <fields>
+        <field name="Distributor">DIGIKEY</field>
+        <field name="Distributor Part #">36-4952-ND</field>
+        <field name="Part #">4952</field>
+        <field name="Unit Price">0.26</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint_Alt" description="test point (alternative shape)"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="DIGIKEY"/>
+      <property name="Distributor Part #" value="36-4952-ND"/>
+      <property name="Part #" value="4952"/>
+      <property name="Price" value=""/>
+      <property name="Unit Price" value="0.26"/>
+      <property name="Sheetname" value="Analog Front End"/>
+      <property name="Sheetfile" value="analog_front_end.kicad_sch"/>
+      <property name="ki_description" value="test point (alternative shape)"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Analog Front End/" tstamps="/2f1a03b0-7946-4e7c-ad47-38a79c8ba450/"/>
+      <tstamps>e7e83ecc-1e63-4f06-8d77-145b7c451852</tstamps>
+    </comp>
+    <comp ref="TP6">
+      <value>4952</value>
+      <footprint>Connector_Pin:Pin_D1.2mm_L10.2mm_W2.9mm_FlatFork</footprint>
+      <fields>
+        <field name="Distributor">DIGIKEY</field>
+        <field name="Distributor Part #">36-4952-ND</field>
+        <field name="Part #">4952</field>
+        <field name="Unit Price">0.26</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint_Alt" description="test point (alternative shape)"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="DIGIKEY"/>
+      <property name="Distributor Part #" value="36-4952-ND"/>
+      <property name="Part #" value="4952"/>
+      <property name="Price" value=""/>
+      <property name="Unit Price" value="0.26"/>
+      <property name="Sheetname" value="Analog Front End"/>
+      <property name="Sheetfile" value="analog_front_end.kicad_sch"/>
+      <property name="ki_description" value="test point (alternative shape)"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Analog Front End/" tstamps="/2f1a03b0-7946-4e7c-ad47-38a79c8ba450/"/>
+      <tstamps>6dd6067b-b704-4d5e-987a-4c8c7cf85c77</tstamps>
+    </comp>
+    <comp ref="TP7">
+      <value>4952</value>
+      <footprint>Connector_Pin:Pin_D1.2mm_L10.2mm_W2.9mm_FlatFork</footprint>
+      <fields>
+        <field name="Distributor">DIGIKEY</field>
+        <field name="Distributor Part #">36-4952-ND</field>
+        <field name="Part #">4952</field>
+        <field name="Unit Price">0.26</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint_Alt" description="test point (alternative shape)"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="DIGIKEY"/>
+      <property name="Distributor Part #" value="36-4952-ND"/>
+      <property name="Part #" value="4952"/>
+      <property name="Price" value=""/>
+      <property name="Unit Price" value="0.26"/>
+      <property name="Sheetname" value="Analog Front End"/>
+      <property name="Sheetfile" value="analog_front_end.kicad_sch"/>
+      <property name="ki_description" value="test point (alternative shape)"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Analog Front End/" tstamps="/2f1a03b0-7946-4e7c-ad47-38a79c8ba450/"/>
+      <tstamps>3f7beb2a-370c-45c3-953c-a651da346920</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>LM6144xIx</value>
+      <footprint>Package_DIP:DIP-14_W7.62mm</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/lm6142.pdf</datasheet>
+      <fields>
+        <field name="Distributor">DIGIKEY</field>
+        <field name="Distributor Part #">LM6144BIN/NOPB-ND</field>
+        <field name="Part #">LM6144BIN/NOPB</field>
+        <field name="Unit Price">9.01</field>
+      </fields>
+      <libsource lib="Amplifier_Operational" part="LM6144xIx" description="Low-Power, Quad-Operational Amplifiers, 17MHz, DIP-14/SOIC-14"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="DIGIKEY"/>
+      <property name="Distributor Part #" value="LM6144BIN/NOPB-ND"/>
+      <property name="Part #" value="LM6144BIN/NOPB"/>
+      <property name="Price" value=""/>
+      <property name="Unit Price" value="9.01"/>
+      <property name="Sheetname" value="Analog Front End"/>
+      <property name="Sheetfile" value="analog_front_end.kicad_sch"/>
+      <property name="ki_description" value="Low-Power, Quad-Operational Amplifiers, 17MHz, DIP-14/SOIC-14"/>
+      <property name="ki_keywords" value="quad opamp rail"/>
+      <sheetpath names="/Analog Front End/" tstamps="/2f1a03b0-7946-4e7c-ad47-38a79c8ba450/"/>
+      <tstamps>ecd25b2b-1f3e-4e26-975d-6c9d88aa8c29 cd445e4c-7c3b-4844-a429-c73eeb21b7f3 42580794-51fc-47e1-8886-4bebc2978823 e461fc54-d005-4d1a-9b33-ebdd51c1220a 341a02cb-b356-4dab-ac2b-bf4b03b9ee08</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>LM4030-4.096</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm4030.pdf</datasheet>
+      <fields>
+        <field name="Distributor">DIGIKEY</field>
+        <field name="Distributor Part #">296-41427-1-ND</field>
+        <field name="Part #">LM4030CMF-4.096/NOPB</field>
+        <field name="Unit Price">1.7</field>
+      </fields>
+      <libsource lib="Reference_Voltage" part="LM4030-4.096" description="4.096V Ultra-High Precision Shunt Voltage Reference, SOT-23-5"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="DIGIKEY"/>
+      <property name="Distributor Part #" value="296-41427-1-ND"/>
+      <property name="Part #" value="LM4030CMF-4.096/NOPB"/>
+      <property name="Price" value=""/>
+      <property name="Unit Price" value="1.7"/>
+      <property name="Sheetname" value="Analog Front End"/>
+      <property name="Sheetfile" value="analog_front_end.kicad_sch"/>
+      <property name="ki_description" value="4.096V Ultra-High Precision Shunt Voltage Reference, SOT-23-5"/>
+      <property name="ki_keywords" value="diode device voltage reference shunt"/>
+      <sheetpath names="/Analog Front End/" tstamps="/2f1a03b0-7946-4e7c-ad47-38a79c8ba450/"/>
+      <tstamps>0b93a9dd-7895-4636-8e28-4eb79c45d90c</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>ADS8328IPW</value>
+      <footprint>Package_SO:TSSOP-16_4.4x5mm_P0.65mm</footprint>
+      <fields>
+        <field name="Distributor">DIGIKEY</field>
+        <field name="Distributor Part #">296-19766-ND</field>
+        <field name="Part #">ADS8328IPW</field>
+        <field name="Unit Price">14.78</field>
+      </fields>
+      <libsource lib="LCR_parts" part="ADS8328IPW" description=""/>
+      <property name="Price" value=""/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="DIGIKEY"/>
+      <property name="Distributor Part #" value="296-19766-ND"/>
+      <property name="Part #" value="ADS8328IPW"/>
+      <property name="Unit Price" value="14.78"/>
+      <property name="Sheetname" value="Analog Front End"/>
+      <property name="Sheetfile" value="analog_front_end.kicad_sch"/>
+      <sheetpath names="/Analog Front End/" tstamps="/2f1a03b0-7946-4e7c-ad47-38a79c8ba450/"/>
+      <tstamps>6411821f-52c1-4c8a-86e5-524ca94576c8</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>LM6142xIx</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/lm6142.pdf</datasheet>
+      <fields>
+        <field name="Distributor">MOUSER</field>
+        <field name="Distributor Part #"> 926-LM6142BIN/NOPB </field>
+        <field name="Part #">LM6142BIN/NOPB </field>
+        <field name="Unit Price">5.58</field>
+      </fields>
+      <libsource lib="Amplifier_Operational" part="LM6142xIx" description="Dual Operational Amplifiers, 17MHz, DIP-8/SOIC-8"/>
+      <property name="Carted" value=""/>
+      <property name="Distributor" value="MOUSER"/>
+      <property name="Distributor Part #" value=" 926-LM6142BIN/NOPB "/>
+      <property name="Part #" value="LM6142BIN/NOPB "/>
+      <property name="Price" value=""/>
+      <property name="Unit Price" value="5.58"/>
+      <property name="Sheetname" value="Analog Front End"/>
+      <property name="Sheetfile" value="analog_front_end.kicad_sch"/>
+      <property name="ki_description" value="Dual Operational Amplifiers, 17MHz, DIP-8/SOIC-8"/>
+      <property name="ki_keywords" value="dual opamp rail"/>
+      <sheetpath names="/Analog Front End/" tstamps="/2f1a03b0-7946-4e7c-ad47-38a79c8ba450/"/>
+      <tstamps>414bde37-63be-44d7-a5da-fdb839b4ee9a 3205975d-1bce-44fe-85d2-8d527e0e6d66 0c43ce60-e7ef-4085-96d1-c468f827867c</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Amplifier_Operational" part="LM6142xIx">
+      <description>Dual Operational Amplifiers, 17MHz, DIP-8/SOIC-8</description>
+      <docs>https://www.ti.com/lit/ds/symlink/lm6142.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM6142xIx</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/lm6142.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="" type="output"/>
+        <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Amplifier_Operational" part="LM6144xIx">
+      <description>Low-Power, Quad-Operational Amplifiers, 17MHz, DIP-14/SOIC-14</description>
+      <docs>https://www.ti.com/lit/ds/symlink/lm6142.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x8.7mm*P1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM6144xIx</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/lm6142.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V+" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="" type="output"/>
+        <pin num="8" name="" type="output"/>
+        <pin num="9" name="-" type="input"/>
+        <pin num="10" name="+" type="input"/>
+        <pin num="11" name="V-" type="power_in"/>
+        <pin num="12" name="+" type="input"/>
+        <pin num="13" name="-" type="input"/>
+        <pin num="14" name="" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x04">
+      <description>Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x04</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint_Alt">
+      <description>test point (alternative shape)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint_Alt</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Zener">
+      <description>Zener diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Zener</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Fuse">
+      <description>Fuse</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_US">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N5817">
+      <description>20V 1A Schottky Barrier Rectifier Diode, DO-41</description>
+      <docs>http://www.vishay.com/docs/88525/1n5817.pdf</docs>
+      <footprints>
+        <fp>D*DO?41*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N5817</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+        <field name="Datasheet">http://www.vishay.com/docs/88525/1n5817.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LCR_parts" part="ADS8328IPW">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ADS8328IPW</field>
+        <field name="Footprint">ADS8328IPW:SOP65P640X120-16N</field>
+        <field name="MF">Texas Instruments</field>
+        <field name="Description">
+2.7V-to-5.5V 16-Bit 500kSPS Serial ADC With 2-to-1 Multiplexer
+</field>
+        <field name="Package">TSSOP-16 Texas Instruments</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/ADS8328IPW/Texas+Instruments/view-part/?ref=snap</field>
+        <field name="MP">ADS8328IPW</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=1218431&amp;manufacturer=Texas Instruments&amp;part_name=ADS8328IPW&amp;search_term=ads8328ipw</field>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/ADS8328IPW/Texas+Instruments/view-part/?ref=eda</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+VA" type="input"/>
+        <pin num="2" name="+IN1" type="input"/>
+        <pin num="3" name="+IN0" type="input"/>
+        <pin num="4" name="COM" type="bidirectional"/>
+        <pin num="5" name="AGND" type="power_in"/>
+        <pin num="6" name="REF-" type="input"/>
+        <pin num="7" name="REF+" type="bidirectional"/>
+        <pin num="9" name="CONVST" type="bidirectional"/>
+        <pin num="10" name="EOC/INT" type="input"/>
+        <pin num="11" name="FS/CS" type="bidirectional"/>
+        <pin num="12" name="SDI" type="input"/>
+        <pin num="13" name="SDO" type="bidirectional"/>
+        <pin num="14" name="BDGND" type="power_in"/>
+        <pin num="15" name="SCLK" type="input"/>
+        <pin num="16" name="+VBD" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="LCR_parts" part="SC0915">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SC0915</field>
+        <field name="Footprint">SC0915:MODULE_SC0915</field>
+        <field name="MF">Raspberry Pi</field>
+        <field name="Description">
+Raspberry Pi Pico Embedded Dev Module | Raspberry Pi SC0915
+</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/SC0915/Raspberry+Pi/view-part/?ref=eda</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="PARTREV">1.9</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/SC0915/Raspberry+Pi/view-part/?ref=snap</field>
+        <field name="MP">SC0915</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=6331605&amp;manufacturer=Raspberry Pi&amp;part_name=SC0915&amp;search_term=raspberry pi pico</field>
+        <field name="MANUFACTURER">Pi Supply</field>
+        <field name="Availability">In Stock</field>
+        <field name="SNAPEDA_PN">SC0915</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GP0" type="bidirectional"/>
+        <pin num="2" name="GP1" type="bidirectional"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="GP2" type="bidirectional"/>
+        <pin num="5" name="GP3" type="bidirectional"/>
+        <pin num="6" name="GP4" type="bidirectional"/>
+        <pin num="7" name="GP5" type="bidirectional"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="GP6" type="bidirectional"/>
+        <pin num="10" name="GP7" type="bidirectional"/>
+        <pin num="11" name="GP8" type="bidirectional"/>
+        <pin num="12" name="GP9" type="bidirectional"/>
+        <pin num="13" name="GND" type="power_in"/>
+        <pin num="14" name="GP10" type="bidirectional"/>
+        <pin num="15" name="GP11" type="bidirectional"/>
+        <pin num="16" name="GP12" type="bidirectional"/>
+        <pin num="17" name="GP13" type="bidirectional"/>
+        <pin num="18" name="GND" type="power_in"/>
+        <pin num="19" name="GP14" type="bidirectional"/>
+        <pin num="20" name="GP15" type="bidirectional"/>
+        <pin num="21" name="GP16" type="bidirectional"/>
+        <pin num="22" name="GP17" type="bidirectional"/>
+        <pin num="23" name="GND" type="power_in"/>
+        <pin num="24" name="GP18" type="bidirectional"/>
+        <pin num="25" name="GP19" type="bidirectional"/>
+        <pin num="26" name="GP20" type="bidirectional"/>
+        <pin num="27" name="GP21" type="bidirectional"/>
+        <pin num="28" name="GND" type="power_in"/>
+        <pin num="29" name="GP22" type="bidirectional"/>
+        <pin num="30" name="~{RUN}" type="input"/>
+        <pin num="31" name="GP26" type="bidirectional"/>
+        <pin num="32" name="GP27" type="bidirectional"/>
+        <pin num="33" name="AGND" type="power_in"/>
+        <pin num="34" name="GP28" type="bidirectional"/>
+        <pin num="35" name="ADC_VREF" type="power_in"/>
+        <pin num="36" name="3V3_OUT" type="power_in"/>
+        <pin num="37" name="3V3_EN" type="input"/>
+        <pin num="38" name="GND" type="power_in"/>
+        <pin num="39" name="VSYS" type="power_in"/>
+        <pin num="40" name="VBUS" type="power_in"/>
+        <pin num="A" name="USB_SHIELD" type="power_in"/>
+        <pin num="B" name="USB_SHIELD" type="power_in"/>
+        <pin num="C" name="USB_SHIELD" type="power_in"/>
+        <pin num="D" name="USB_SHIELD" type="power_in"/>
+        <pin num="D1" name="SWCLK" type="input"/>
+        <pin num="D2" name="GND" type="power_in"/>
+        <pin num="D3" name="SWDIO" type="bidirectional"/>
+        <pin num="TP1" name="TP1_GND" type="power_in"/>
+        <pin num="TP2" name="TP2_USB_DM" type="bidirectional"/>
+        <pin num="TP3" name="TP3_USB_DP" type="bidirectional"/>
+        <pin num="TP4" name="TP4_GPIO23/SMPS_PS" type="no_connect"/>
+        <pin num="TP5" name="TP5_GPIO25/LED" type="output"/>
+        <pin num="TP6" name="TP6_BOOTSEL" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reference_Voltage" part="LM4030-4.096">
+      <description>4.096V Ultra-High Precision Shunt Voltage Reference, SOT-23-5</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm4030.pdf</docs>
+      <footprints>
+        <fp>SOT?23?5*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM4030-4.096</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/lm4030.pdf</field>
+      </fields>
+      <pins>
+        <pin num="4" name="K" type="passive"/>
+        <pin num="5" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="LM1117DT-3.3">
+      <description>800mA Low-Dropout Linear Regulator, 3.3V fixed output, TO-252</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm1117.pdf</docs>
+      <footprints>
+        <fp>TO?252*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM1117DT-3.3</field>
+        <field name="Footprint">Package_TO_SOT_SMD:TO-252-3_TabPin2</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/lm1117.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="LM1117DT-5.0">
+      <description>800mA Low-Dropout Linear Regulator, 5.0V fixed output, TO-252</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm1117.pdf</docs>
+      <footprints>
+        <fp>TO?252*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM1117DT-5.0</field>
+        <field name="Footprint">Package_TO_SOT_SMD:TO-252-3_TabPin2</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/lm1117.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="2N7002">
+      <description>0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</description>
+      <docs>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2N7002</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Amplifier_Operational">
+      <uri>/usr/share/kicad/symbols//Amplifier_Operational.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>/usr/share/kicad/symbols//Diode.kicad_sym</uri>
+    </library>
+    <library logical="LCR_parts">
+      <uri>/home/schuyler/Documents/projects/LC_meter/ecad/LCR_parts.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad/symbols//Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Reference_Voltage">
+      <uri>/usr/share/kicad/symbols//Reference_Voltage.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>/usr/share/kicad/symbols//Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>/usr/share/kicad/symbols//Transistor_FET.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3.3V">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J10" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J10" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J11" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J11" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J12" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+      <node ref="R25" pin="1" pintype="passive"/>
+      <node ref="R28" pin="1" pintype="passive"/>
+      <node ref="R29" pin="1" pintype="passive"/>
+      <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U4" pin="16" pinfunction="+VBD" pintype="input"/>
+      <node ref="U5" pin="2" pinfunction="VO" pintype="power_out"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="R30" pin="1" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="V+" pintype="power_in"/>
+      <node ref="U4" pin="1" pinfunction="+VA" pintype="input"/>
+      <node ref="U6" pin="8" pinfunction="V+" pintype="power_in"/>
+      <node ref="U8" pin="2" pinfunction="VO" pintype="power_out"/>
+    </net>
+    <net code="3" name="+12V">
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="4" name="/Analog Front End/CONVST">
+      <node ref="TP13" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="14" pinfunction="GP10" pintype="bidirectional"/>
+      <node ref="U4" pin="9" pinfunction="CONVST" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/Analog Front End/CS">
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="TP12" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="12" pinfunction="GP9" pintype="bidirectional"/>
+      <node ref="U4" pin="11" pinfunction="FS/CS" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/Analog Front End/DATA_IN">
+      <node ref="TP10" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="10" pinfunction="GP7" pintype="bidirectional"/>
+      <node ref="U4" pin="12" pinfunction="SDI" pintype="input"/>
+    </net>
+    <net code="7" name="/Analog Front End/DATA_OUT">
+      <node ref="TP11" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="11" pinfunction="GP8" pintype="bidirectional"/>
+      <node ref="U4" pin="13" pinfunction="SDO" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/Analog Front End/INTERUPT">
+      <node ref="TP9" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="9" pinfunction="GP6" pintype="bidirectional"/>
+      <node ref="U4" pin="10" pinfunction="EOC/INT" pintype="input"/>
+    </net>
+    <net code="9" name="/Analog Front End/SCK">
+      <node ref="TP8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="GP2" pintype="bidirectional"/>
+      <node ref="U4" pin="15" pinfunction="SCLK" pintype="input"/>
+    </net>
+    <net code="10" name="/Analog Front End/V{slash}2">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="+" pintype="input"/>
+      <node ref="U1" pin="3" pinfunction="+" pintype="input"/>
+      <node ref="U4" pin="4" pinfunction="COM" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="/SCL">
+      <node ref="J12" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R28" pin="2" pintype="passive"/>
+      <node ref="U3" pin="27" pinfunction="GP21" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="/SDA">
+      <node ref="J12" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R29" pin="2" pintype="passive"/>
+      <node ref="U3" pin="26" pinfunction="GP20" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="GNDA">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="H1" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H3" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="R27" pin="2" pintype="passive"/>
+      <node ref="R31" pin="1" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="V-" pintype="power_in"/>
+      <node ref="U2" pin="5" pinfunction="A" pintype="passive"/>
+      <node ref="U4" pin="5" pinfunction="AGND" pintype="power_in"/>
+      <node ref="U4" pin="6" pinfunction="REF-" pintype="input"/>
+      <node ref="U6" pin="4" pinfunction="V-" pintype="power_in"/>
+      <node ref="U8" pin="1" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="14" name="GNDD">
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="H2" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H4" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="J12" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J13" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="13" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="18" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="23" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="28" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="33" pinfunction="AGND" pintype="power_in"/>
+      <node ref="U3" pin="38" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="D2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="14" pinfunction="BDGND" pintype="power_in"/>
+      <node ref="U5" pin="1" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="15" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(C2-Pad2)">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(C3-Pad1)">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(C13-Pad2)">
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="TP5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="8" pintype="output"/>
+    </net>
+    <net code="19" name="Net-(D1-K)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U3" pin="39" pinfunction="VSYS" pintype="power_in"/>
+    </net>
+    <net code="20" name="Net-(D2-K)">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="F1" pin="2" pintype="passive"/>
+      <node ref="R38" pin="2" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(D5-K)">
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U5" pin="3" pinfunction="VI" pintype="power_in"/>
+      <node ref="U8" pin="3" pinfunction="VI" pintype="power_in"/>
+    </net>
+    <net code="22" name="Net-(D7-A)">
+      <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R38" pin="1" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(J1-Pin_1)">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J6" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J6" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="24" name="Net-(J1-Pin_2)">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="25" name="Net-(J2-Pin_1)">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="TP4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="1" pintype="output"/>
+    </net>
+    <net code="26" name="Net-(J4-Pin_1)">
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="27" name="Net-(J4-Pin_2)">
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="28" name="Net-(J4-Pin_3)">
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="29" name="Net-(J4-Pin_4)">
+      <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+    </net>
+    <net code="30" name="Net-(J5-Pin_2)">
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R24" pin="2" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="GP0" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="Net-(J7-Pin_1)">
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+    </net>
+    <net code="32" name="Net-(J7-Pin_2)">
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+    </net>
+    <net code="33" name="Net-(J7-Pin_3)">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="J7" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+    </net>
+    <net code="34" name="Net-(J7-Pin_4)">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="J7" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+    </net>
+    <net code="35" name="Net-(J8-Pin_1)">
+      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U3" pin="17" pinfunction="GP13" pintype="bidirectional"/>
+    </net>
+    <net code="36" name="Net-(J8-Pin_2)">
+      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U3" pin="19" pinfunction="GP14" pintype="bidirectional"/>
+    </net>
+    <net code="37" name="Net-(J8-Pin_3)">
+      <node ref="J8" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U3" pin="20" pinfunction="GP15" pintype="bidirectional"/>
+    </net>
+    <net code="38" name="Net-(J8-Pin_4)">
+      <node ref="J8" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U3" pin="21" pinfunction="GP16" pintype="bidirectional"/>
+    </net>
+    <net code="39" name="Net-(J9-Pin_1)">
+      <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U3" pin="29" pinfunction="GP22" pintype="bidirectional"/>
+    </net>
+    <net code="40" name="Net-(J9-Pin_2)">
+      <node ref="J9" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U3" pin="31" pinfunction="GP26" pintype="bidirectional"/>
+    </net>
+    <net code="41" name="Net-(J9-Pin_3)">
+      <node ref="J9" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U3" pin="32" pinfunction="GP27" pintype="bidirectional"/>
+    </net>
+    <net code="42" name="Net-(J9-Pin_4)">
+      <node ref="J9" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U3" pin="34" pinfunction="GP28" pintype="bidirectional"/>
+    </net>
+    <net code="43" name="Net-(J13-Pin_2)">
+      <node ref="J13" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="GP1" pintype="bidirectional"/>
+    </net>
+    <net code="44" name="Net-(J14-Pin_1)">
+      <node ref="J14" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+    </net>
+    <net code="45" name="Net-(J14-Pin_2)">
+      <node ref="J14" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="46" name="Net-(Q1-G)">
+      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+    </net>
+    <net code="47" name="Net-(U1A--)">
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="48" name="Net-(U1B--)">
+      <node ref="R26" pin="2" pintype="passive"/>
+      <node ref="TP6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="-" pintype="input"/>
+      <node ref="U1" pin="7" pintype="output"/>
+    </net>
+    <net code="49" name="Net-(U1D-+)">
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="50" name="Net-(U1D--)">
+      <node ref="U1" pin="13" pinfunction="-" pintype="input"/>
+      <node ref="U1" pin="14" pintype="output"/>
+      <node ref="U4" pin="2" pinfunction="+IN1" pintype="input"/>
+    </net>
+    <net code="51" name="Net-(U2-K)">
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="TP7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="K" pintype="passive"/>
+      <node ref="U4" pin="7" pinfunction="REF+" pintype="bidirectional"/>
+    </net>
+    <net code="52" name="Net-(U3-GP17)">
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="U3" pin="22" pinfunction="GP17" pintype="bidirectional"/>
+    </net>
+    <net code="53" name="Net-(U4-+IN0)">
+      <node ref="U4" pin="3" pinfunction="+IN0" pintype="input"/>
+      <node ref="U6" pin="1" pintype="output"/>
+      <node ref="U6" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="54" name="Net-(U6A-+)">
+      <node ref="R26" pin="1" pintype="passive"/>
+      <node ref="R27" pin="1" pintype="passive"/>
+      <node ref="U6" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="55" name="Net-(U6B-+)">
+      <node ref="R30" pin="2" pintype="passive"/>
+      <node ref="R31" pin="2" pintype="passive"/>
+      <node ref="U6" pin="5" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="56" name="Net-(U6B--)">
+      <node ref="U6" pin="6" pinfunction="-" pintype="input"/>
+      <node ref="U6" pin="7" pintype="output"/>
+    </net>
+    <net code="57" name="unconnected-(U3-3V3_EN-Pad37)">
+      <node ref="U3" pin="37" pinfunction="3V3_EN" pintype="input+no_connect"/>
+    </net>
+    <net code="58" name="unconnected-(U3-3V3_OUT-Pad36)">
+      <node ref="U3" pin="36" pinfunction="3V3_OUT" pintype="power_in+no_connect"/>
+    </net>
+    <net code="59" name="unconnected-(U3-ADC_VREF-Pad35)">
+      <node ref="U3" pin="35" pinfunction="ADC_VREF" pintype="power_in+no_connect"/>
+    </net>
+    <net code="60" name="unconnected-(U3-GP3-Pad5)">
+      <node ref="U3" pin="5" pinfunction="GP3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="61" name="unconnected-(U3-GP4-Pad6)">
+      <node ref="U3" pin="6" pinfunction="GP4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="62" name="unconnected-(U3-GP5-Pad7)">
+      <node ref="U3" pin="7" pinfunction="GP5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="63" name="unconnected-(U3-GP11-Pad15)">
+      <node ref="U3" pin="15" pinfunction="GP11" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="64" name="unconnected-(U3-GP12-Pad16)">
+      <node ref="U3" pin="16" pinfunction="GP12" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="65" name="unconnected-(U3-GP18-Pad24)">
+      <node ref="U3" pin="24" pinfunction="GP18" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="66" name="unconnected-(U3-GP19-Pad25)">
+      <node ref="U3" pin="25" pinfunction="GP19" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="67" name="unconnected-(U3-SWCLK-PadD1)">
+      <node ref="U3" pin="D1" pinfunction="SWCLK" pintype="input+no_connect"/>
+    </net>
+    <net code="68" name="unconnected-(U3-SWDIO-PadD3)">
+      <node ref="U3" pin="D3" pinfunction="SWDIO" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="69" name="unconnected-(U3-TP1_GND-PadTP1)">
+      <node ref="U3" pin="TP1" pinfunction="TP1_GND" pintype="power_in+no_connect"/>
+    </net>
+    <net code="70" name="unconnected-(U3-TP2_USB_DM-PadTP2)">
+      <node ref="U3" pin="TP2" pinfunction="TP2_USB_DM" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="71" name="unconnected-(U3-TP3_USB_DP-PadTP3)">
+      <node ref="U3" pin="TP3" pinfunction="TP3_USB_DP" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="72" name="unconnected-(U3-TP4_GPIO23{slash}SMPS_PS-PadTP4)">
+      <node ref="U3" pin="TP4" pinfunction="TP4_GPIO23/SMPS_PS" pintype="no_connect"/>
+    </net>
+    <net code="73" name="unconnected-(U3-TP5_GPIO25{slash}LED-PadTP5)">
+      <node ref="U3" pin="TP5" pinfunction="TP5_GPIO25/LED" pintype="output+no_connect"/>
+    </net>
+    <net code="74" name="unconnected-(U3-TP6_BOOTSEL-PadTP6)">
+      <node ref="U3" pin="TP6" pinfunction="TP6_BOOTSEL" pintype="input+no_connect"/>
+    </net>
+    <net code="75" name="unconnected-(U3-USB_SHIELD-PadA)">
+      <node ref="U3" pin="A" pinfunction="USB_SHIELD" pintype="power_in+no_connect"/>
+    </net>
+    <net code="76" name="unconnected-(U3-USB_SHIELD-PadB)">
+      <node ref="U3" pin="B" pinfunction="USB_SHIELD" pintype="power_in+no_connect"/>
+    </net>
+    <net code="77" name="unconnected-(U3-USB_SHIELD-PadC)">
+      <node ref="U3" pin="C" pinfunction="USB_SHIELD" pintype="power_in+no_connect"/>
+    </net>
+    <net code="78" name="unconnected-(U3-USB_SHIELD-PadD)">
+      <node ref="U3" pin="D" pinfunction="USB_SHIELD" pintype="power_in+no_connect"/>
+    </net>
+    <net code="79" name="unconnected-(U3-VBUS-Pad40)">
+      <node ref="U3" pin="40" pinfunction="VBUS" pintype="power_in+no_connect"/>
+    </net>
+    <net code="80" name="unconnected-(U3-~{RUN}-Pad30)">
+      <node ref="U3" pin="30" pinfunction="~{RUN}" pintype="input+no_connect"/>
+    </net>
+  </nets>
+</export>
