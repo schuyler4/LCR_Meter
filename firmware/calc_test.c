@@ -4,17 +4,13 @@
 
 int main(void)
 {
+    float capacitor_voltages[CODE_COUNT];
     int i;
-    for(i=0;i < CODE_COUNT; i++)
-    {
-        int voltage_code = VOLTAGE_CODES[i];
-        int current_code = CURRENT_CODES[i];
-        float adc_voltage_voltage = get_voltage_from_code(voltage_code);
-        float adc_current_voltage = get_voltage_from_code(current_code);
-        float capacitor_voltage = get_divider_input_voltage(adc_voltage_voltage);
-        float capacitor_current_amplified = get_divider_input_voltage(adc_current_voltage);
-		float capacitor_current = undo_transimpedance_gain(capacitor_current_amplified);
-        printf("%f\n", capacitor_current);
-    }
+    float my_component_voltage = component_voltage(VOLTAGE_CODES, CODE_COUNT);
+    float my_component_current = component_current(CURRENT_CODES, CODE_COUNT); 
+    float my_capacitance = capacitance_uf(my_component_voltage, my_component_current);
+    printf("%fV\n", my_component_voltage);
+    printf("%fA\n", my_component_current);
+    printf("%fuF\n", my_capacitance);
     return 0;
 }

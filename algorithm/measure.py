@@ -15,7 +15,7 @@ import numpy as np
 import pandas as pd
 from scipy.signal import resample 
 
-SAMPLE_RATE = 10e6
+SAMPLE_RATE = 500e3
 SAMPLE_PERIOD = 1/SAMPLE_RATE
 
 # Done without built in functions because that is what will be needed in C.
@@ -98,9 +98,6 @@ voltage_data_voltage = voltage_data[:,1]
 
 current_data_time = current_data[:,0]
 current_data_voltage = current_data[:,1]
-
-print(is_evenly_spaced(voltage_data_time))
-print(is_evenly_spaced(current_data_time))
 
 time_length = voltage_data_time[voltage_data_time.size - 1] - voltage_data_time[0]
 ADC_sample_count = (int)(time_length/SAMPLE_PERIOD)

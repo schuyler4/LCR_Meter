@@ -7,9 +7,17 @@
 #define DIVIDER_TOP_RESISTOR 2210
 #define DIVIDER_BOTTOM_RESISTOR 10000
 #define TRANSIMPEDANCE_GAIN 250
+#define FREQUENCY 100000
+#define PI 3.14159
  
-float get_voltage_from_code(int code);
-float get_divider_input_voltage(float vout);
+float voltage_from_code(int code);
+float divider_input_voltage(float vout);
 float undo_transimpedance_gain(float vout);
+void remove_DC(float* signal, float* ac_signal, int signal_length);
+float rms(float* signal, int signal_length);
+float component_voltage(int* voltage_codes, int code_length);
+float component_current(int* current_codes, int code_length);
+float peak_voltage(float rms_voltage);
+float capacitance_uf(float component_voltage, float component_current);
 
 #endif
