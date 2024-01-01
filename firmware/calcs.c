@@ -20,7 +20,7 @@ float undo_transimpedance_gain(float vout)
 
 void remove_DC(float* signal, float* ac_signal, int signal_length)
 {
-    float mean;
+    float mean = 0;
     int i;
     for(i = 0; i < signal_length; i++)
     {
@@ -58,8 +58,7 @@ float component_voltage(int* voltage_codes, int code_length)
     int i;
     for(i = 0; i < code_length; i++)
     {
-        voltages[i] = divider_input_voltage(voltage_from_code(*(voltage_codes + i))); 
-        printf("%f\n", voltages[i]);
+        *(voltages+i) = divider_input_voltage(voltage_from_code(*(voltage_codes + i))); 
     }
     remove_DC(voltages, voltages_ac, code_length);
     return peak_voltage(rms(voltages_ac, code_length));
@@ -72,7 +71,7 @@ float component_current(int* current_codes, int code_length)
     int i;
     for(i = 0; i < code_length; i++)
     {
-        current_voltage[i] = divider_input_voltage(voltage_from_code(*(current_codes + i)));
+        *(current_voltage + i)  = divider_input_voltage(voltage_from_code(*(current_codes + i)));
     }    
     remove_DC(current_voltage, current_voltage_ac, code_length); 
     float currents[code_length];
