@@ -1,7 +1,12 @@
+Item #, Qty, Value, Distributor, Distributor Part #, Part #, Unit Price, Price
 1, 1, digit display, Adafruit, 879, N/A, 9.95,9.95
 2, 1, out of range indicator, Digikey, L10001-ND, 5100H1, 2.79,2.79
 3, 2, selector switch, Digikey, CKN10206-ND, A20403RNZQ, 11.28,22.56
 4, 1, selector switch, Digikey, 708-3051-ND, C1700ROAAA, 2.86,2.86
-5, 1, display connecotr, Digikey, N/A, 4210, 0.95,0.95
+5, 1, display connector, Digikey, N/A, 4210, 0.95,0.95
 6, 4, stand off, self, N/A, N/A, 0,0.0
 7, 1, box, Digikey, HM617-ND, 1411RU, 19.28,19.28
+8, 1, red banana jack, Digikey, J151-ND, 108-0902-001, 1.17, 1.17 
+9, 1, black banana jack, Digikey, J152-ND, 108-0903-001, 1.26, 1.26 
+10, 1, feet, Digikey, SJ-5023-BLACK-ND, SJ-5023-BLACK, 0.29, 1.16
+total:,,,,,,,42.7
