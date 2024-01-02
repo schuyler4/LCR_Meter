@@ -41,10 +41,13 @@ void setup_IO(void)
 {
     gpio_init(PICO_DEFAULT_LED_PIN);
     gpio_init(CS_PIN);
+    gpio_init(CONVST_PIN);
 
     gpio_set_dir(CS_PIN, GPIO_OUT);
     gpio_set_dir(PICO_DEFAULT_LED_PIN, GPIO_OUT);
+    gpio_set_dir(CONVST_PIN, GPIO_OUT);
 
     gpio_put(CS_PIN, 1);
     gpio_put(PICO_DEFAULT_LED_PIN, 1);
+    gpio_put(CONVST_PIN, 1);
 }

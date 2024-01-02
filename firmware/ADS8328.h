@@ -1,8 +1,8 @@
 #ifndef ADS8328_H
 #define ADS8328_H
 
-#define SELECT_CHANNEL0 0x0
-#define SELECT_CHANNEL1 0x1
+#define CHANNEL0 0x0
+#define CHANNEL1 0x1
 #define WAKE_UP 0xB
 #define READ_CFR 0xC
 #define READ_DATA 0xD
@@ -28,6 +28,7 @@ typedef enum config_reg
 } ConfigReg;
 
 void setup_ADS8328(void);
-void read_ADS8328(void);
+void select_ADS8328_channel(uint8_t channel);
+uint16_t sample_ADS8328(void);
 
 #endif 

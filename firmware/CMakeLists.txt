@@ -11,6 +11,8 @@ pico_sdk_init()
 # point out the CMake, where to find the executable source file
 add_executable(${PROJECT_NAME}
         main.c
+        calcs.c
+        HT16K33.c
 )
 # create map/bin/hex/uf2 files.
 pico_add_extra_outputs(${PROJECT_NAME})
@@ -19,3 +21,4 @@ pico_enable_stdio_uart(${PROJECT_NAME} 0)
 # Pull in our pico_stdlib which pulls in commonly used features (gpio, timer-delay etc)
 target_link_libraries(${PROJECT_NAME} pico_stdlib)
 target_link_libraries(${PROJECT_NAME} hardware_spi)
+target_link_libraries(${PROJECT_NAME} hardware_i2c)
