@@ -2,8 +2,10 @@
 
 #include "pico/stdlib.h"
 #include "hardware/spi.h"
+#include "hardware/i2c.h"
 
 #include "main.h"
+#include "HT16K33.h"
 
 int main(void)
 {
@@ -11,19 +13,10 @@ int main(void)
 
     setup_IO();
     setup_SPI();
-
-    printf("Hello UART\n");
+    setup_I2C();
 
     while(1)
     {
-        gpio_put(PICO_DEFAULT_LED_PIN, 0);
-        printf("GOD\n");
-        sleep_ms(1000);
-
-
-        gpio_put(PICO_DEFAULT_LED_PIN, 1);
-        printf("LED OFF\n");
-        sleep_ms(1000);
     }
 
     return 1;
@@ -35,6 +28,13 @@ void setup_SPI(void)
     gpio_set_function(MOSI_PIN, GPIO_FUNC_SPI);
     gpio_set_function(MISO_PIN, GPIO_FUNC_SPI);
     gpio_set_function(SCK_PIN, GPIO_FUNC_SPI);
+}
+
+void setup_I2C(void)
+{
+    i2c_init(i2c_default, I2C_CLK_FREQUENCY); 
+    gpio_set_function(SCL_PIN, GPIO_FUNC_I2C);
+    gpio_set_function(SDA_PIN, GPIO_FUNC_I2C);
 }
 
 void setup_IO(void)
