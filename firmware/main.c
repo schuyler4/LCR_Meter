@@ -7,18 +7,29 @@
 #include "main.h"
 #include "HT16K33.h"
 
+static i2c_inst_t *i2c = i2c0;
+
 int main(void)
 {
     stdio_init_all();
 
-    setup_IO();
     setup_SPI();
     setup_I2C();
+    setup_IO();
+
+    setup_HT16K33(i2c);
+    set_brightness_HT16K33(6, i2c);
 
     while(1)
     {
+        uint16_t i;
+        for(i = 0; i < 1000; i++)
+        {
+            display_integer(i, i2c);
+            sleep_ms(1000);
+        } 
     }
-
+    
     return 1;
 }
 
@@ -32,16 +43,16 @@ void setup_SPI(void)
 
 void setup_I2C(void)
 {
-    i2c_init(i2c_default, I2C_CLK_FREQUENCY); 
+    i2c_init(i2c, I2C_CLK_FREQUENCY); 
     gpio_set_function(SCL_PIN, GPIO_FUNC_I2C);
     gpio_set_function(SDA_PIN, GPIO_FUNC_I2C);
 }
 
 void setup_IO(void)
 {
-    gpio_init(PICO_DEFAULT_LED_PIN);
-    gpio_init(CS_PIN);
-    gpio_init(CONVST_PIN);
+    //gpio_init(PICO_DEFAULT_LED_PIN);
+    //gpio_init(CS_PIN);
+    //gpio_init(CONVST_PIN);
 
     gpio_set_dir(CS_PIN, GPIO_OUT);
     gpio_set_dir(PICO_DEFAULT_LED_PIN, GPIO_OUT);
@@ -50,4 +61,7 @@ void setup_IO(void)
     gpio_put(CS_PIN, 1);
     gpio_put(PICO_DEFAULT_LED_PIN, 1);
     gpio_put(CONVST_PIN, 1);
+
+    gpio_pull_up(SCL_PIN);
+    gpio_pull_up(SDA_PIN);
 }
