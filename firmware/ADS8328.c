@@ -1,3 +1,11 @@
+//
+// FILENAME: ADS8328.c
+//
+// DESCRIPTION: ADS8328 16 bit 500kS/s ADC Driver.
+//
+// WRITTEN BY: Marek Newton
+//
+
 #include <stdint.h>
 
 #include "pico/stdlib.h"
@@ -34,15 +42,16 @@ static uint16_t ADS8328_read_config_register(void)
 void setup_ADS8328(void)
 {
     uint16_t config_reg_value = ADS8328_read_config_register();
-    config_reg_value &= ~(1 << ConfigReg.CHANNEL_SELECT_MODE);
+    config_reg_value &= ~(1 << CHANNEL_SELECT_MODE_OFFSET);
     
     uint16_t write_cfg_req_address = WRITE_CFR;
+    uint16_t read_tx_data = 0;
     uint16_t ack;
 
     toggle_chip_select();
-    spi_write16_blocking(spi_default, &write_cfg_reg_addresss, 1);
+    spi_write16_blocking(spi_default, &write_cfg_req_address, 1);
     spi_write16_blocking(spi_default, &config_reg_value, 1);  
-    spi_read16_blocking(spi_default, &ack, 1);
+    spi_read16_blocking(spi_default, read_tx_data, &ack, 1);
     toggle_chip_select();    
 }
 
@@ -54,7 +63,7 @@ void select_ADS8328_channel(uint16_t channel)
         uint16_t channel_address = channel;
         toggle_chip_select();
         spi_write16_blocking(spi_default, &channel_address, 1);
-        spi_read16_blocking(spi_default, &nothing, 1);   
+        spi_read16_blocking(spi_default, nothing, &nothing, 1);   
         toggle_chip_select();
     }
 }
@@ -65,11 +74,12 @@ uint16_t sample_ADS8328(void)
     trigger_delay();   
     gpio_put(CONVST_PIN, 1); 
 
-    uint16_t result;    
+    uint16_t result = 0;    
     uint16_t read_command = READ_DATA;
     toggle_chip_select();
     spi_write16_blocking(spi_default, &read_command, 1);
-    spi_read16_blocking(spi_default, &resuly, 1);
+    spi_read16_blocking(spi_default, result, &result, 1);
+    toggle_chip_select();
 
     return result; 
 }

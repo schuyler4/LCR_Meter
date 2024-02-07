@@ -6,6 +6,7 @@
 
 #include "main.h"
 #include "HT16K33.h"
+#include "ADS8328.h"
 
 static i2c_inst_t *i2c = i2c0;
 
@@ -17,17 +18,16 @@ int main(void)
     setup_I2C();
     setup_IO();
 
+    setup_ADS8328();
     setup_HT16K33(i2c);
+
     set_brightness_HT16K33(6, i2c);
+    select_ADS8328_channel(1);
 
     while(1)
     {
-        uint16_t i;
-        for(i = 0; i < 1000; i++)
-        {
-            display_integer(i, i2c);
-            sleep_ms(1000);
-        } 
+        uint16_t result = sample_ADS8328(); 
+        printf("%d\n", result);
     }
     
     return 1;
@@ -50,9 +50,9 @@ void setup_I2C(void)
 
 void setup_IO(void)
 {
-    //gpio_init(PICO_DEFAULT_LED_PIN);
-    //gpio_init(CS_PIN);
-    //gpio_init(CONVST_PIN);
+    gpio_init(PICO_DEFAULT_LED_PIN);
+    gpio_init(CS_PIN);
+    gpio_init(CONVST_PIN);
 
     gpio_set_dir(CS_PIN, GPIO_OUT);
     gpio_set_dir(PICO_DEFAULT_LED_PIN, GPIO_OUT);

@@ -1,6 +1,8 @@
 #ifndef ADS8328_H
 #define ADS8328_H
 
+#define CS_PIN 9
+
 #define CHANNEL0 0x0
 #define CHANNEL1 0x1
 #define WAKE_UP 0xB
@@ -11,24 +13,21 @@
 
 #define CFG_REG_MASK 0x0FFF
 
-typedef enum config_reg 
-{
-    RESET = 0,
-    TAG_BIT = 1,
-    DEEP_PWR_DOWN = 2,
-    NAP_PWR_DOWN = 3,
-    AUTO_NAP_PWR_DWN = 4,
-    CHAIN_MODE = 5,
-    EOC = 6,
-    EOC_POLARITY = 7,
-    DONT_CARE = 8,
-    TRIGGER_SOURCE = 9,
-    CLOCK_SOURCE = 10,
-    CHANNEL_SELECT_MODE = 11,
-} ConfigReg;
+#define RESET_OFFSET 0
+#define TAG_BIT_OFFSET 1
+#define DEEP_PWR_DOWN_OFFSET 2
+#define NAP_PWR_DOWN_OFFSET 3
+#define AUTO_NAP_PWR_DWN_OFFSET 4
+#define CHAIN_MODE_OFFSET 5
+#define EOC_OFFSET 6
+#define EOC_POLARITY_OFFSET 7
+#define DONT_CARE_OFFSET 8 
+#define TRIGGER_SOURCE_OFFSET 9
+#define CLOCK_SOURCE_OFFSET 10
+#define CHANNEL_SELECT_MODE_OFFSET 11
 
 void setup_ADS8328(void);
-void select_ADS8328_channel(uint8_t channel);
+void select_ADS8328_channel(uint16_t channel);
 uint16_t sample_ADS8328(void);
 
 #endif 

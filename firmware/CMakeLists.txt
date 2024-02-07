@@ -10,9 +10,10 @@ set(CMAKE_CXX_STANDARD 17)
 pico_sdk_init()
 # point out the CMake, where to find the executable source file
 add_executable(${PROJECT_NAME}
-        main.c
-        calcs.c
-        HT16K33.c
+    main.c
+    calcs.c
+    HT16K33.c
+    ADS8328.c
 )
 # create map/bin/hex/uf2 files.
 pico_add_extra_outputs(${PROJECT_NAME})
