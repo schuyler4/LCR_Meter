@@ -27,7 +27,8 @@ int main(void)
     while(1)
     {
         uint16_t result = sample_ADS8328(); 
-        printf("%d\n", result);
+        //select_ADS8328_channel(1);
+        //printf("%d\n", result);
     }
     
     return 1;
@@ -35,7 +36,7 @@ int main(void)
 
 void setup_SPI(void)
 {
-    spi_init(spi_default, SPI_CLK_FREQUENCY);
+    spi_init(spi0, SPI_CLK_FREQUENCY);
     gpio_set_function(MOSI_PIN, GPIO_FUNC_SPI);
     gpio_set_function(MISO_PIN, GPIO_FUNC_SPI);
     gpio_set_function(SCK_PIN, GPIO_FUNC_SPI);

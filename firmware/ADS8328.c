@@ -41,7 +41,13 @@ static uint16_t ADS8328_read_config_register(void)
 
 void setup_ADS8328(void)
 {
-    uint16_t config_reg_value = ADS8328_read_config_register();
+    uint8_t write_command = DEFAULT_MODE << COMMAND_OFFSET;
+    //uint16_t write_command = DEFAULT_MODE;
+    toggle_chip_select();
+    //spi_write16_blocking(spi_default, &write_command, 1); 
+    spi_write_blocking(spi0, &write_command, 1);
+    toggle_chip_select(); 
+    /*uint16_t config_reg_value = ADS8328_read_config_register();
     config_reg_value &= ~(1 << CHANNEL_SELECT_MODE_OFFSET);
     
     uint16_t write_cfg_req_address = WRITE_CFR;
@@ -52,7 +58,7 @@ void setup_ADS8328(void)
     spi_write16_blocking(spi_default, &write_cfg_req_address, 1);
     spi_write16_blocking(spi_default, &config_reg_value, 1);  
     spi_read16_blocking(spi_default, read_tx_data, &ack, 1);
-    toggle_chip_select();    
+    toggle_chip_select();*/    
 }
 
 void select_ADS8328_channel(uint16_t channel)
@@ -60,25 +66,25 @@ void select_ADS8328_channel(uint16_t channel)
     if(channel == 0 || channel == 1)
     {
         uint16_t nothing = 0;
-        uint16_t channel_address = channel;
+        uint16_t channel_address = channel << COMMAND_OFFSET;
         toggle_chip_select();
-        spi_write16_blocking(spi_default, &channel_address, 1);
-        spi_read16_blocking(spi_default, nothing, &nothing, 1);   
+        spi_write_blocking(spi0, &channel_address, 1);
+        //spi_read16_blocking(spi_default, nothing, &nothing, 1);   
         toggle_chip_select();
     }
 }
 
 uint16_t sample_ADS8328(void)
 {
-    gpio_put(CONVST_PIN, 0);
-    trigger_delay();   
-    gpio_put(CONVST_PIN, 1); 
-
+    //gpio_put(CONVST_PIN, 0);
+    //trigger_delay();   
+    //gpio_put(CONVST_PIN, 1); 
+    uint16_t zero = 0;
     uint16_t result = 0;    
-    uint16_t read_command = READ_DATA;
+    uint8_t read_command = READ_DATA << COMMAND_OFFSET;
     toggle_chip_select();
-    spi_write16_blocking(spi_default, &read_command, 1);
-    spi_read16_blocking(spi_default, result, &result, 1);
+    spi_write_blocking(spi0, &read_command, 1);
+    spi_read16_blocking(spi0, zero, &result, 1);
     toggle_chip_select();
 
     return result; 

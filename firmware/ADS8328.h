@@ -13,6 +13,8 @@
 
 #define CFG_REG_MASK 0x0FFF
 
+#define COMMAND_OFFSET 4
+
 #define RESET_OFFSET 0
 #define TAG_BIT_OFFSET 1
 #define DEEP_PWR_DOWN_OFFSET 2
