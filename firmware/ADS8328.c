@@ -24,19 +24,31 @@ static void toggle_chip_select(void)
     gpio_put(CS_PIN, !gpio_get(CS_PIN));    
 }
 
-static uint16_t ADS8328_read_config_register(void)
+static void chip_select_low(void)
 {
-    uint16_t address = READ_CFR;    
-    uint16_t nothing = 0; 
-    uint16_t result;
+    gpio_put(CS_PIN, 0);
+}
 
-    toggle_chip_select();
-    spi_write16_blocking(spi_default, &address, 1);
-    spi_read16_blocking(spi_default, 0x00,  &nothing, 1); 
-    spi_read16_blocking(spi_default, 0x00, &result, 1); 
-    toggle_chip_select();
+static void chip_select_high(void)
+{
+    gpio_put(CS_PIN, 1);
+}
 
-    return result | CFG_REG_MASK;
+uint16_t ADS8328_read_config_register(void)
+{
+    uint16_t address = READ_CFR << COMMAND_OFFSET;    
+    uint8_t result1;
+    uint8_t result2;
+
+    uint8_t address1 = (uint8_t)(address >> 8);
+    uint8_t address2 = (uint8_t)(address & 0xFF);
+
+    chip_select_low();
+    spi_write_read_blocking(spi0, &address1, &result1, 1);
+    spi_write_read_blocking(spi0, &address2, &result2, 1);
+    chip_select_high();
+
+    return (result1 << 8) | result2;
 }
 
 void setup_ADS8328(void)
@@ -61,12 +73,12 @@ void setup_ADS8328(void)
     toggle_chip_select();*/    
 }
 
-void select_ADS8328_channel(uint16_t channel)
+void select_ADS8328_channel(uint8_t channel)
 {
     if(channel == 0 || channel == 1)
     {
         uint16_t nothing = 0;
-        uint16_t channel_address = channel << COMMAND_OFFSET;
+        uint8_t channel_address = channel << COMMAND_OFFSET;
         toggle_chip_select();
         spi_write_blocking(spi0, &channel_address, 1);
         //spi_read16_blocking(spi_default, nothing, &nothing, 1);   

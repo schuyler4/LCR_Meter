@@ -3,7 +3,7 @@
 
 #include "pico/stdlib.h"
 
-#define SPI_CLK_FREQUENCY 20000000
+#define SPI_CLK_FREQUENCY 2000000
 #define I2C_CLK_FREQUENCY 1000
 #define MOSI_PIN 7
 #define MISO_PIN 8

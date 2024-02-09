@@ -13,7 +13,7 @@
 
 #define CFG_REG_MASK 0x0FFF
 
-#define COMMAND_OFFSET 4
+#define COMMAND_OFFSET 12
 
 #define RESET_OFFSET 0
 #define TAG_BIT_OFFSET 1
@@ -29,7 +29,8 @@
 #define CHANNEL_SELECT_MODE_OFFSET 11
 
 void setup_ADS8328(void);
-void select_ADS8328_channel(uint16_t channel);
+void select_ADS8328_channel(uint8_t channel);
 uint16_t sample_ADS8328(void);
+uint16_t ADS8328_read_config_register(void);
 
 #endif 
