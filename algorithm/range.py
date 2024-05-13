@@ -37,19 +37,23 @@ for i, r in enumerate(R):
     z = -1j/(w*min_capacitance) + r
     I = abs(SINE_INPUT/z)
     trans_out = list(filter(lambda v: not in_range(v), [I*gain for gain in CURRENT_GAIN]))
+    voltage_vout = abs(I*(-1j/(w*min_capacitance)))
+    print('vout:', voltage_vout)
     print()
-    if(len(trans_out) < len(CURRENT_GAIN)): print('current good')
+    if(len(trans_out) < len(CURRENT_GAIN)): 
+        print('current good')
     for gain in CURRENT_GAIN: 
-        if(in_range(I*gain)): 
+        if in_range(I*gain): 
             print(gain)
             feedback_network = -1j/(2*pi*GBWP*max_capacitance) + r + gain
             Ifeedback = 1/feedback_network
             vout = Ifeedback*(-1j/(2*pi*GBWP*max_capacitance) + r)
+            print('Magnitude', abs(vout))
             print('Phase: ', phase(vout)*(180/pi))
-    print('Current: ', I)
-    print('Range Setting: ', r)
-    print('Min Capacitance: ', min_capacitance)
-    print('Max Capacitance: ', max_capacitance)
+            print('Current: ', I)
+            print('Range Setting: ', r)
+            print('Min Capacitance: ', min_capacitance)
+            print('Max Capacitance: ', max_capacitance)
 
 # Inductance
 for i, r in enumerate(R):
@@ -58,17 +62,20 @@ for i, r in enumerate(R):
     z = 1j*w*max_inductance + r
     I = abs(SINE_INPUT/z)
     trans_out = list(filter(lambda v: not in_range(v), [I*gain for gain in CURRENT_GAIN]))
+    voltage_vout = abs(1j*w*max_inductance*I) 
+    print('vout:', voltage_vout)
     print()
     for gain in CURRENT_GAIN: 
-        if(in_range(I*gain)): 
+        if in_range(I*gain): 
             print(gain)
             feedback_network = 1j*GBWP*2*pi + r + gain
             Ifeedback = 1/feedback_network
             vout = Ifeedback*(1j*GBWP*2*pi + r)
+            print('Magnitude: ', abs(vout))
             print('Phase: ', phase(vout)*(180/pi))
-    print('Current: ', I)
-    if(len(trans_out) < len(CURRENT_GAIN)): print('current good')
-    print('Range Setting: ', r)
-    print('Max Inductance: ', max_inductance)
-    print('Min Inductance:  ', min_inductance)
+            print('Current: ', I)
+            if(len(trans_out) < len(CURRENT_GAIN)): print('current good')
+            print('Range Setting: ', r)
+            print('Max Inductance: ', max_inductance)
+            print('Min Inductance:  ', min_inductance)
     

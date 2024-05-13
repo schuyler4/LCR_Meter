@@ -46,6 +46,8 @@ uint16_t ADS8328_read_config_register(void)
     chip_select_low();
     spi_write_read_blocking(spi0, &address1, &result1, 1);
     spi_write_read_blocking(spi0, &address2, &result2, 1);
+    spi_write_read_blocking(spi0, &address1, &result1, 1);
+    spi_write_read_blocking(spi0, &address2, &result2, 1);
     chip_select_high();
 
     return (result1 << 8) | result2;

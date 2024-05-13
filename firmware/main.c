@@ -18,7 +18,7 @@ int main(void)
     setup_I2C();
     setup_IO();
 
-    setup_ADS8328();
+    //setup_ADS8328();
     setup_HT16K33(i2c);
 
     set_brightness_HT16K33(6, i2c);
@@ -26,12 +26,12 @@ int main(void)
 
     while(1)
     {
-        //uint16_t result = ADS8328_read_config_register(); 
-        //printf("%d\n", result);
-        gpio_put(CONVST_PIN, 0);
+        uint16_t result = ADS8328_read_config_register(); 
+        printf("%d\n", result);
+        /*gpio_put(CONVST_PIN, 0);
         sleep_us(1);
         gpio_put(CONVST_PIN, 1);
-        sleep_ms(1000);
+        sleep_ms(1000);*/
     }
     
     return 1;
