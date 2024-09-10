@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "LCR_parts")(type "KiCad")(uri "${KIPRJMOD}/LCR_parts.kicad_sym")(options "")(descr ""))
+  (lib (name "Newt_Scope_Parts")(type "KiCad")(uri "/home/schuyler/Documents/projects/Newt_Scope_One/electronics/rev4/ecad/Newt_Scope_Parts.kicad_sym")(options "")(descr ""))
+  (lib (name "AD8226ARZ")(type "KiCad")(uri "/home/schuyler/Downloads/AD8226ARZ.kicad_sym")(options "")(descr ""))
+)

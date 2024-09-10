@@ -239,7 +239,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "ADC.kicad_pro",
+    "filename": "LCR_meter.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -383,7 +383,7 @@
   },
   "sheets": [
     [
-      "d498c5d6-fae3-4248-804f-4aa8aa31105f",
+      "403836a8-13a4-482c-9a38-b4224b3fb5f9",
       "Root"
     ]
   ],
