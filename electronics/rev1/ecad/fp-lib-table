@@ -1,5 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "LC_meter")(type "KiCad")(uri "/home/schuyler/Documents/projects/LC_meter/ecad/LC_meter.pretty")(options "")(descr ""))
-  (lib (name "LCR_Meter")(type "KiCad")(uri "${KIPRJMOD}/LCR_Meter.pretty")(options "")(descr ""))
-)
