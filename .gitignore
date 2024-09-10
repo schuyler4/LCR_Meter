@@ -36,7 +36,7 @@ firmware/build
 firmware/bin
 
 */-lm
-#auto_saved_files#
 sym-lib-table
 ~_autosave-LC_meter
 fp-lib-table
+*autosave*
