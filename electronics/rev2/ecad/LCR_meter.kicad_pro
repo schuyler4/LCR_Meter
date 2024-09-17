@@ -385,6 +385,14 @@
     [
       "403836a8-13a4-482c-9a38-b4224b3fb5f9",
       "Root"
+    ],
+    [
+      "7ccf7859-c2b5-4b8c-8c88-b3c4ca1ede51",
+      "DiffAmp2"
+    ],
+    [
+      "c17d8c84-7965-4431-beca-b945337a553e",
+      "DiffAmp1"
     ]
   ],
   "text_variables": {}
