@@ -1244,6 +1244,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 76.2) (xy 129.54 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a92847c-d41e-49d1-bc03-854ddb44ed37")
+	)
+	(wire
+		(pts
 			(xy 162.56 101.6) (xy 158.75 101.6)
 		)
 		(stroke
@@ -1452,6 +1462,18 @@
 		)
 		(uuid "0f174e73-e5b5-4f21-bf6e-53bfae26f49d")
 	)
+	(hierarchical_label "REF"
+		(shape input)
+		(at 128.27 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2fb8464a-7e11-49fa-890a-7be7b5c4916d")
+	)
 	(hierarchical_label "OUT"
 		(shape output)
 		(at 172.72 81.28 0)
@@ -1520,6 +1542,42 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 124.46 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part #" "YAG1236CT-ND"
+			(at 124.46 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "RT0603BRD0710KL"
+			(at 124.46 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Price 100x" "0.073"
+			(at 124.46 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Price 1x" "0.14"
 			(at 124.46 101.6 0)
 			(effects
 				(font
@@ -1669,6 +1727,42 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part #" "296-35226-1-ND"
+			(at 153.67 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "LM6144BIMX/NOPB"
+			(at 153.67 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Price 100x" "5.137"
+			(at 153.67 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Price 1x" "8.34"
+			(at 153.67 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "398d92ae-212d-408e-a6fc-995267a1bbdc")
 		)
@@ -1776,6 +1870,42 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part #" "311-1088-1-ND"
+			(at 158.75 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "CC0603KRX7R7BB104"
+			(at 158.75 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Price 100x" "0.02"
+			(at 158.75 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Price 1x" "0.1"
+			(at 158.75 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5322476e-2f6f-480e-8d83-eb208894266e")
 		)
@@ -1840,6 +1970,42 @@
 			)
 		)
 		(property "Description" "Low-Power, Quad-Operational Amplifiers, 17MHz, DIP-14/SOIC-14"
+			(at 107.95 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part #" "296-35226-1-ND"
+			(at 107.95 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "LM6144BIMX/NOPB"
+			(at 107.95 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Price 100x" "5.137"
+			(at 107.95 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Price 1x" "8.34"
 			(at 107.95 66.04 0)
 			(effects
 				(font
@@ -1955,6 +2121,42 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part #" "YAG1236CT-ND"
+			(at 124.46 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "RT0603BRD0710KL"
+			(at 124.46 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Price 100x" "0.073"
+			(at 124.46 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Price 1x" "0.14"
+			(at 124.46 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cbf90673-254e-44ae-8f81-8d6e97241100")
 		)
@@ -2021,6 +2223,42 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 116.84 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part #" "311-10.0KHRCT-ND"
+			(at 116.84 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "RC0603FR-0710KL"
+			(at 116.84 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Price 100x" "0.0093"
+			(at 116.84 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Price 1x" "0.1"
 			(at 116.84 129.54 0)
 			(effects
 				(font
@@ -2241,6 +2479,42 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part #" "296-35226-1-ND"
+			(at 107.95 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "LM6144BIMX/NOPB"
+			(at 107.95 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Price 100x" "5.137"
+			(at 107.95 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Price 1x" "8.34"
+			(at 107.95 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "c5b018e3-f41d-4748-9f03-0d92d75405fb")
 		)
@@ -2297,76 +2571,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 129.54 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a7f8907b-592f-4136-9d00-652a554fc6fb")
-		(property "Reference" "#PWR013"
-			(at 129.54 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 129.54 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.54 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 129.54 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a2bc8625-877c-4efa-946a-741f02b0bff3")
-		)
-		(instances
-			(project "LCR_meter"
-				(path "/403836a8-13a4-482c-9a38-b4224b3fb5f9/7ccf7859-c2b5-4b8c-8c88-b3c4ca1ede51"
-					(reference "#PWR013")
-					(unit 1)
-				)
-				(path "/403836a8-13a4-482c-9a38-b4224b3fb5f9/c17d8c84-7965-4431-beca-b945337a553e"
-					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 154.94 101.6 90)
 		(unit 1)
@@ -2410,6 +2614,42 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 154.94 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part #" "YAG1236CT-ND"
+			(at 154.94 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "RT0603BRD0710KL"
+			(at 154.94 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Price 100x" "0.073"
+			(at 154.94 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Price 1x" "0.14"
 			(at 154.94 101.6 0)
 			(effects
 				(font
@@ -2483,6 +2723,42 @@
 			)
 		)
 		(property "Description" "Low-Power, Quad-Operational Amplifiers, 17MHz, DIP-14/SOIC-14"
+			(at 153.67 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part #" "296-35226-1-ND"
+			(at 153.67 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "LM6144BIMX/NOPB"
+			(at 153.67 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Price 100x" "5.137"
+			(at 153.67 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Price 1x" "8.34"
 			(at 153.67 81.28 0)
 			(effects
 				(font
@@ -2739,6 +3015,42 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part #" "296-35226-1-ND"
+			(at 137.16 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "LM6144BIMX/NOPB"
+			(at 137.16 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Price 100x" "5.137"
+			(at 137.16 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Price 1x" "8.34"
+			(at 137.16 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "398d92ae-212d-408e-a6fc-995267a1bbdf")
 		)
@@ -2848,6 +3160,42 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey Part #" "YAG1236CT-ND"
+			(at 129.54 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "RT0603BRD0710KL"
+			(at 129.54 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Price 100x" "0.073"
+			(at 129.54 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Price 1x" "0.14"
+			(at 129.54 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "44730f52-114d-48eb-9a86-5b3cebe8ccc6")
 		)
@@ -2914,6 +3262,42 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 116.84 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part #" "311-10.0KHRCT-ND"
+			(at 116.84 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part #" "RC0603FR-0710KL"
+			(at 116.84 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Price 100x" "0.0093"
+			(at 116.84 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Price 1x" "0.1"
 			(at 116.84 139.7 0)
 			(effects
 				(font

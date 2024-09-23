@@ -4,19 +4,30 @@ Vs = 2.5
 gain = 100
 V_ref = 3 # V
 LSB = V_ref/2**12
-#print(LSB)
 threshold = LSB*100
-w = 2*pi*10e3
+w = 2*pi*200e3
 
 # 
 # (Vs - threshold)/Rs = I
 # threshold/((Vs - threshold)/Rs) = Rtest
 # Rs*threshold/(Vs - threshold) = Rtest
 #
+# threshold/Rs = I
+# (Vs - threshold)/(threshold/Rs) = Rtest
+# Rs(Vs-thrshold)/threshold = Rtest
+#
+
 
 for rs in Rs:
-    Ztest = rs*threshold/(Vs-threshold) 
-    print('Current', Vs/(Ztest+rs))
-    print('Resistance:', Ztest)
-    print('Capacitance:', 1/(Ztest*w))    
-    print('Inductance:', Ztest/w)
+    print(rs)
+    min_Ztest = rs*threshold/(Vs-threshold) 
+    max_Ztest = rs*(Vs-threshold)/threshold
+    print('Max Current', Vs/(min_Ztest+rs))
+    print('Min Current', Vs/(max_Ztest+rs))
+    print('Min Resistance:', min_Ztest)
+    print('Max Resistance:', max_Ztest)
+    print('Max Capacitance:', 1/(min_Ztest*w))    
+    print('Min Capacitance:', 1/(max_Ztest*w))    
+    print('Min Inductance:', min_Ztest/w)
+    print('Max Inductance:', max_Ztest/w)
+    print()
