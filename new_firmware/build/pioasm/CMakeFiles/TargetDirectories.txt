@@ -1,0 +1,3 @@
+/home/schuyler/Documents/projects/LC_meter/new_firmware/build/pioasm/CMakeFiles/pioasm.dir
+/home/schuyler/Documents/projects/LC_meter/new_firmware/build/pioasm/CMakeFiles/edit_cache.dir
+/home/schuyler/Documents/projects/LC_meter/new_firmware/build/pioasm/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,13 @@
+# Target labels
+ ELF2UF2Build
+# Source files and their labels
+/home/schuyler/Documents/projects/LC_meter/new_firmware/build/CMakeFiles/ELF2UF2Build
+/home/schuyler/Documents/projects/LC_meter/new_firmware/build/CMakeFiles/ELF2UF2Build.rule
+/home/schuyler/Documents/projects/LC_meter/new_firmware/build/CMakeFiles/ELF2UF2Build-complete.rule
+/home/schuyler/Documents/projects/LC_meter/new_firmware/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build.rule
+/home/schuyler/Documents/projects/LC_meter/new_firmware/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure.rule
+/home/schuyler/Documents/projects/LC_meter/new_firmware/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download.rule
+/home/schuyler/Documents/projects/LC_meter/new_firmware/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install.rule
+/home/schuyler/Documents/projects/LC_meter/new_firmware/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir.rule
+/home/schuyler/Documents/projects/LC_meter/new_firmware/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch.rule
+/home/schuyler/Documents/projects/LC_meter/new_firmware/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update.rule
