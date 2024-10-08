@@ -21,7 +21,7 @@ int main(void)
     adc_init();
     select_range();
     adc_fifo_setup(true, false, 0, false, false);
-    adc_run(true);
+    //adc_run(true);
 
     //repeating_timer_t sampling_timer;
     //if(!add_repeating_timer_us(2.5, sample_timer_callback, NULL, &sampling_timer))
