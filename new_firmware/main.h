@@ -11,5 +11,6 @@
 
 void setup_GPIO(void);
 void select_range(void);
+bool sample_timer_callback(repeating_timer_t *rt);
 
 #endif

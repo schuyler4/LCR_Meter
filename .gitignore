@@ -35,6 +35,8 @@ __pycache__/
 firmware/build
 firmware/bin
 
+new_firmware/build
+
 */-lm
 sym-lib-table
 ~_autosave-LC_meter
