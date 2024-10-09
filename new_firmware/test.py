@@ -1,15 +1,10 @@
-import matplotlib.pyplot as plt
-from scipy.optimize import curve_fit
 import numpy as np
-codes = [int(code) for code in open('test.txt').read().split('\n') if code != '' and code != 'START' and code != 'END']
+LSB = 3/256
+BIAS = 2.5
+codes = np.array([int(code) for code in open('test.txt').read().split('\n') if code != '' and code != 'START' and code != 'END'])
 nn = [i for i in range(0, len(codes))]
-guess_offset = np.mean(codes) 
-guess_amplitude = 3*np.std(codes)/(2**0.5)
-guess_freq = 1
-guess_phase = 0
-p0 = [guess_freq, guess_amplitude, guess_phase, guess_offset]
-
-def my_sin(x, freq, amplitude, phase, offset): return np.sin(x*freq+phase)*amplitude + offset
-
-plt.plot(nn, codes)
-plt.show()
+voltages = (codes*LSB*(10e3+6.81e3))/10e3
+voltages -= BIAS
+RMS_voltage = np.sqrt(np.sum(np.square(voltages))/len(voltages))
+RMS_current = RMS_voltage/539
+print(RMS_current)

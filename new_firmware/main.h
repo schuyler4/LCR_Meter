@@ -5,6 +5,8 @@
 
 #define CURRENT_ADC_PIN 26
 #define VOLTAGE_ADC_PIN 27
+#define CURRENT_ADC_CHANNEL 0
+#define VOLTAGE_ADC_CHANNEL 1
 
 #define MUX_BIT0 0
 #define MUX_BIT_COUNT 3
