@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdint.h>
 
 #include "pico/stdlib.h"
 #include "hardware/gpio.h"
@@ -6,6 +7,7 @@
 #include "hardware/dma.h"
 
 #include "main.h"
+#include "calcs.h"
 
 #define TIMER_INTERVAL_US 2.5
 
@@ -44,15 +46,13 @@ int main(void)
     adc_run(false);
     adc_fifo_drain();
 
+    float rms_voltage = RMS_signal(current_sample_buffer, ADC_SAMPLE_COUNT);
+    float rms_current = RMS_signal(voltage_sample_buffer, ADC_SAMPLE_COUNT);
+
     while(1)
     {
-        printf("START\n");
-        uint16_t i;
-        for(i = 0; i < ADC_SAMPLE_COUNT; i++)
-        {
-            printf("%d\n", sample_buffer[i]);
-        }
-        printf("END\n");
+        printf("%d\n", rms_voltage);
+        printf("%d\n", rms_current);
     }
     // The program should never return.
     return 1;

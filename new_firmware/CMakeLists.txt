@@ -9,7 +9,7 @@ set(CMAKE_CXX_STANDARD 17)
 # Creates a pico-sdk subdirectory in our project for the libraries
 pico_sdk_init()
 # point out the CMake, where to find the executable source file
-add_executable(${PROJECT_NAME} main.c)
+add_executable(${PROJECT_NAME} main.c calcs.c)
 # create map/bin/hex/uf2 files.
 pico_add_extra_outputs(${PROJECT_NAME})
 pico_enable_stdio_usb(${PROJECT_NAME} 1)
