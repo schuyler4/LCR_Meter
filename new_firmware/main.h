@@ -1,7 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-#define ADC_SAMPLE_COUNT 100
+#define ADC_SAMPLE_COUNT 255
 
 #define CURRENT_ADC_PIN 26
 #define VOLTAGE_ADC_PIN 27
@@ -19,5 +19,6 @@ float RANGE_RESISTORS[] = {499, 4990, 49900, 499000, 4990000};
 void setup_GPIO(void);
 void select_range(uint8_t range);
 bool sample_timer_callback(repeating_timer_t *rt);
+float take_reading(void);
 
 #endif

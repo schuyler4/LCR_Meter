@@ -4,7 +4,7 @@
 
 #include "calcs.h"
 
-float RMS_signal(uint8_t *signal_array, uint8_t signal_length)
+float RMS_signal(uint8_t *signal_array, uint16_t signal_length)
 {
     float mean_square  = 0;
     uint8_t i;

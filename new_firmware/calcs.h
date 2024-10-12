@@ -7,7 +7,7 @@
 #define ADC_VOLTAGE_REFERENCE 2.987
 #define LSB (ADC_VOLTAGE_REFERENCE/ADC_STEPS)
 
-float RMS_signal(uint8_t *signal_array, uint8_t signal_length);
+float RMS_signal(uint8_t *signal_array, uint16_t signal_length);
 float get_max_voltage(uint8_t *signal_array, uint8_t signal_length);
 float get_min_voltage(uint8_t *signal_array, uint8_t signal_length);
 
