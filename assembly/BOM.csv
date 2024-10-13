@@ -9,4 +9,5 @@ Item #, Qty, Value, Distributor, Distributor Part #, Part #, Unit Price, Price
 8, 1, red banana jack, Digikey, J151-ND, 108-0902-001, 1.17, 1.17 
 9, 1, black banana jack, Digikey, J152-ND, 108-0903-001, 1.26, 1.26 
 10, 1, feet, Digikey, SJ-5023-BLACK-ND, SJ-5023-BLACK, 0.29, 1.16
+1, 1, selector switch attempt 3, Digikey, EG2423-ND, 100DP6T1B1M1QEH, 5.42, 5.42
 total:,,,,,,,42.7

@@ -67,50 +67,53 @@ float take_reading(void)
     uint8_t range = 0;
     uint8_t range_index = 0;
     uint8_t i;
+    for(i=0;i<100;i++)
+    {
 capture_start:
-    select_range(range);
+        select_range(range);
 
-    sleep_ms(100);
-    dma_channel_configure(dma_chan, &cfg, current_sample_buffer, &adc_hw->fifo, ADC_SAMPLE_COUNT, true);
-    adc_select_input(CURRENT_ADC_CHANNEL);
-    adc_run(true);
-    dma_channel_wait_for_finish_blocking(dma_chan);
-    adc_run(false);
-    adc_fifo_drain();
+        dma_channel_configure(dma_chan, &cfg, current_sample_buffer, &adc_hw->fifo, ADC_SAMPLE_COUNT, true);
+        adc_select_input(CURRENT_ADC_CHANNEL);
+        adc_run(true);
+        dma_channel_wait_for_finish_blocking(dma_chan);
+        adc_run(false);
+        adc_fifo_drain();
 
-    dma_channel_configure(dma_chan, &cfg, voltage_sample_buffer, &adc_hw->fifo, ADC_SAMPLE_COUNT, true);
-    adc_select_input(VOLTAGE_ADC_CHANNEL);
-    adc_run(true);
-    dma_channel_wait_for_finish_blocking(dma_chan);
-    adc_run(false);
-    adc_fifo_drain();
+        dma_channel_configure(dma_chan, &cfg, voltage_sample_buffer, &adc_hw->fifo, ADC_SAMPLE_COUNT, true);
+        adc_select_input(VOLTAGE_ADC_CHANNEL);
+        adc_run(true);
+        dma_channel_wait_for_finish_blocking(dma_chan);
+        adc_run(false);
+        adc_fifo_drain();
 
-    float rms_voltage_signal = RMS_signal(voltage_sample_buffer, ADC_SAMPLE_COUNT);
-    float rms_current_signal = RMS_signal(current_sample_buffer, ADC_SAMPLE_COUNT);
-    float rms_current = rms_current_signal/(RANGE_RESISTORS[range_index] + 73);
+        float rms_voltage_signal = RMS_signal(voltage_sample_buffer, ADC_SAMPLE_COUNT);
+        float rms_current_signal = RMS_signal(current_sample_buffer, ADC_SAMPLE_COUNT);
+        float rms_current = rms_current_signal/(RANGE_RESISTORS[range_index] + 73);
 
-    float voltage_high = rms_voltage_signal > 1.767*0.7;
-    float voltage_low =  rms_voltage_signal < 1.767*0.3;
+        float voltage_high = rms_voltage_signal > 1.767*0.7;
+        float voltage_low =  rms_voltage_signal < 1.767*0.3;
 
-    if(voltage_high && range < 8)
-    {
-        if(range == 0)
-            range += 1; 
-        else
-            range *= 2;
-        range_index+=1;
-        goto capture_start;
+        if(voltage_high && range < 8)
+        {
+            if(range == 0)
+                range += 1; 
+            else
+                range *= 2;
+            range_index+=1;
+            goto capture_start;
+        }
+
+        if(voltage_low && range > 0)
+        {
+            if(range == 1)
+                range -= 1;
+            else
+                range /= 2;
+            range_index -= 1;
+            goto capture_start;
+        }
+        average += rms_voltage_signal/rms_current;
     }
-
-    if(voltage_low && range > 0)
-    {
-        if(range == 1)
-            range -= 1;
-        else
-            range /= 2;
-        range_index -= 1;
-        goto capture_start;
-    }
-
-    return rms_voltage_signal/rms_current;
+    printf("%d\n", range);
+    return average/100;
 }
