@@ -69,8 +69,8 @@ float take_reading(void)
     uint8_t i;
     for(i=0;i<100;i++)
     {
-capture_start:
-        select_range(range);
+//capture_start:
+        select_range(3);
 
         dma_channel_configure(dma_chan, &cfg, current_sample_buffer, &adc_hw->fifo, ADC_SAMPLE_COUNT, true);
         adc_select_input(CURRENT_ADC_CHANNEL);
@@ -89,29 +89,25 @@ capture_start:
         float rms_voltage_signal = RMS_signal(voltage_sample_buffer, ADC_SAMPLE_COUNT);
         float rms_current_signal = RMS_signal(current_sample_buffer, ADC_SAMPLE_COUNT);
         float rms_current = rms_current_signal/(RANGE_RESISTORS[range_index] + 73);
+        printf("%f\n", rms_voltage_signal);
+        printf("%d\n", range);
 
-        float voltage_high = rms_voltage_signal > 1.767*0.7;
-        float voltage_low =  rms_voltage_signal < 1.767*0.3;
+        float voltage_high = rms_voltage_signal > 0.4;
+        float voltage_low =  rms_voltage_signal < 1.767*0.05;
 
-        if(voltage_high && range < 8)
+/*        if(voltage_high && range < 5)
         {
-            if(range == 0)
-                range += 1; 
-            else
-                range *= 2;
+            range += 1;
             range_index+=1;
             goto capture_start;
         }
 
         if(voltage_low && range > 0)
         {
-            if(range == 1)
-                range -= 1;
-            else
-                range /= 2;
+            range -= 1; 
             range_index -= 1;
             goto capture_start;
-        }
+        }*/
         average += rms_voltage_signal/rms_current;
     }
     printf("%d\n", range);
